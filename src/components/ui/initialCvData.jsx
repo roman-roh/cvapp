@@ -11,31 +11,44 @@ export const initialCvData = {
 	languages: "Languages"
   },
   personal: {
-	name: { label: "Name", value: "Roman" },
-    address: { label: "Address", value: "" },
-	phone: { label: "Phone number", value: "" },
-	email: { label: "Email", value: "" },
+	name: { label: "Name", value: "Roman Doe" },
+    address: { label: "Address", value: "New York, NY" },
+	phone: { label: "Phone number", value: "+1 (123) 456-7890" },
+	email: { label: "Email", value: "johndoe@example.com" },
 
   },
   education: [
-	{date:"2023-12-01", heading: "test", subheading: "tevca vad", content: "test content"},
-	 {date:"2023-12-01", heading: "test", subheading: "tevca vad", content: "test content"}	
+	 {date_start_year:"2017", date_end_year:"2019", date_start_month:"", date_end_month:"", heading: "Bachelor of Arts in Marketing", subheading: "test subheading 1", content: "University of New York, New York, NY"},
   ],
  
   experience: [
-	{date:"2023-12-01", heading: "test", subheading: "tevca vad", content: "test content"},
-	{date:"2023-12-01", heading: "test", subheading: "tevca vad", content: "test content"}
+	{date_start_year:"2017",
+		date_end_year:"2021", date_start_month:"February", 
+		date_end_month:"February", 
+		heading: "test heading",
+		subheading: "test subheading 1",
+		content: "Conducted market research to identify emerging trends and customer preferences.Created email marketing campaigns that resulted in a 15% increase in open rates and a 10% increase in conversion rates. Managed PPC advertising budgets and optimized ad performance across Google Ads and social media platforms."},
  ],
  
-  skills: [{label: 'Test Skill', value: 'Expert' }],
-  skills_select_option: [
-	{value: "Expert"}, 
-	{ value: "Experienced"}, 
-	{ value: "Skilful" }, 
-	{ value: "Intermediate" },
-	{ value: "Beginner"}],
+  skills: [
+	{label: 'Digital Marketing Strategy', value: 'Expert' },
+	{label: 'Content Creation & Management', value: 'Skilful' },
+	{label: 'Social Media Marketing (Facebook, Instagram, Twitter, LinkedIn)', value: 'Expert' },
+	
+  ],
+
   
-  languages: [{label: "English", value: 'B2'}, {label: "French", value: 'B1'} ],
+  languages: [{label: "English", value: 'B2'}, {label: "French", value: 'B1'} ],  
+  interests: "jumping",
+  resume: "Dynamic and results-oriented marketing professional with over 5 years of experience in digital marketing, brand strategy, and content creation. Proven track record in driving customer engagement and increasing revenue through innovative campaigns. Highly skilled in project management, social media marketing, and data analysis.",
+  
+  skills_select_option: [
+  { value: "Expert"}, 
+  { value: "Experienced"}, 
+  { value: "Skilful" }, 
+  { value: "Intermediate" },
+  { value: "Beginner"}],
+  
   languages_select_option: [
     { value: "Native speaker" },
     { value: "Highly proficient in speaking and writing" },
@@ -49,10 +62,18 @@ export const initialCvData = {
     { value: "C1" },
     { value: "C2" }
   ],
+  month_select_option: [
+	{value: "January"},
+	{value: "February"},
+	{value: "March"},
+	{value: "April"},
+	{value: "May"},
+	{value: "June"},
+	{value: "July"},
+	{value: "August"},
+	{value: "September"},
+	{value: "October"},
+	{value: "November"},
+	{value: "December"},
 
-  
-  interests: "Hiking, Jumping",
-  resume: "Career goals or job title you re aiming for Work experience  Education Skills Certifications or achievements (if any)"
-  
-  
-};
+]};

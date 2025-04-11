@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { SectionComplexList } from "./ui/SectionComplexList";
+import { SectionGroup } from "./ui/SectionGroup";
 import { SectionList } from "./ui/SectionList";
-import { SectionSingle } from "./ui/SectionSingle";
+import { SectionText } from "./ui/SectionText";
 
 export function CVPreview({ data }) {
   return (
@@ -12,11 +12,11 @@ export function CVPreview({ data }) {
 		  	<h1>{data.title.main}</h1>
 		  </div>	      
 	      <SectionList name={data.title.personal} data={data.personal} />
-		  <SectionSingle name={data.title.resume} data={data.resume} />
-	      <SectionComplexList name={data.title.education} data={data.education} />
-	      <SectionComplexList name={data.title.experience} data={data.experience} />
+		  <SectionText name={data.title.resume} data={data.resume} />
+	      <SectionGroup name={data.title.education} data={data.education} />
+	      <SectionGroup name={data.title.experience} data={data.experience} />
 	      <SectionList name={data.title.skills} data={data.skills} />
-	      <SectionSingle name={data.title.interests} data={data.interests} />
+	      <SectionText name={data.title.interests} data={data.interests} />
 		  <SectionList name={data.title.languages} data={data.languages} />
 
 	    </section>

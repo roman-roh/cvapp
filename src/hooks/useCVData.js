@@ -85,6 +85,7 @@ export function useCVData() {
   }*/
 
   const handleQuillChange = (name: string) => (value: string) => {
+	console.log(name, value);
 	setCV((prev) => {
 		return deepCloneAndSet(prev, name, value);
 	})

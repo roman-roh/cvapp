@@ -1,8 +1,10 @@
 import React from 'react';
 import { Input } from './ui/Input';
 import { Button } from './ui/Button';
-import TextSingle from './ui/TextSingle';
-import SectionFieldPair from './ui/SectionFieldPair';
+import SectionGroupEditor from './ui/SectionGroupEditor';
+import SectionTextEditor from './ui/SectionTextEditor';
+import SectionListEditor from './ui/SectionListEditor';
+
 
 export default function CVForm({ cvdata, handleInputChange, handleQuillChange, onDeleted, onAdd }) {
 	return (		
@@ -16,7 +18,29 @@ export default function CVForm({ cvdata, handleInputChange, handleQuillChange, o
 	  <Input name="personal.email.value" placeholder={cvdata.personal.email.label} value={cvdata.personal.email.value} onChange={handleInputChange} />
 	  
 	  <div className="section--title">
-		<SectionFieldPair title={cvdata.title.skills} name="skills" data={cvdata.skills} 
+	  <SectionGroupEditor title={cvdata.title.education} name="education" data={cvdata.education} 
+	  select_option={cvdata.month_select_option} 
+	  onChange={handleInputChange}
+	  onDeleted={onDeleted}
+	  onAdd={onAdd}
+	  handleQuillChange= {handleQuillChange}
+
+	    />		
+	  </div> 
+	  
+	  <div className="section--title">
+	  <SectionGroupEditor title={cvdata.title.experience} name="experience" data={cvdata.experience} 
+	  select_option={cvdata.month_select_option} 
+	  onChange={handleInputChange}
+	  onDeleted={onDeleted}
+	  onAdd={onAdd}
+	  handleQuillChange= {handleQuillChange}
+	    />		
+	  </div>   
+	  
+	  
+	  <div className="section--title">
+		<SectionListEditor title={cvdata.title.skills} name="skills" data={cvdata.skills} 
 		select_option={cvdata.skills_select_option} 
 		onChange={handleInputChange}
 		onDeleted={onDeleted}
@@ -25,7 +49,7 @@ export default function CVForm({ cvdata, handleInputChange, handleQuillChange, o
 	  </div>   
 	  
 	  <div className="section--title">
-	  	<SectionFieldPair 
+	  	<SectionListEditor 
 		title={cvdata.title.languages} 
 		name="languages" data={cvdata.languages} 
 		select_option={cvdata.languages_select_option} 
@@ -34,15 +58,16 @@ export default function CVForm({ cvdata, handleInputChange, handleQuillChange, o
 		onAdd={onAdd}
 		 />		
 	   </div>  
+
 		 
 	  <div className="section--title">
 	  	<h2>{cvdata.title.resume}</h2>
-		<TextSingle name="resume" value={cvdata.resume} onChange={handleQuillChange('resume')}  />
+		<SectionTextEditor name="resume" value={cvdata.resume} onChange={handleQuillChange('resume')}  />
 	  </div>   
 	  
 	  <div className="section--title">
 	  	<h2>{cvdata.title.interests}</h2>
-	  	<TextSingle name="interests" value={cvdata.interests} onChange={handleQuillChange('interests')}  />
+	  	<SectionTextEditor name="interests" value={cvdata.interests} onChange={handleQuillChange('interests')}  />
 	  </div>   
 	  
      {/*  <Input name="experience" placeholder="Work Experience" value={cv.experience} onChange={handleChange} />

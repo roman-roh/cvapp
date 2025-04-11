@@ -4,10 +4,10 @@ import { Input } from "./Input";
 import { Select } from "./Select";
 import { Button } from "./Button";
 
-export default function SectionFieldPair({title, name, data, select_option, onChange, onDeleted, onAdd}) {
+export default function SectionListEditor({title, name, data, select_option, onChange, onDeleted, onAdd}) {
 	return (	
 	  <Section name={name} onAdd={onAdd} title={title}>	 
-	    <ol className="">
+	    <ol className="section--list">
 	      {Object.entries(data).map((item, idx) => (<React.Fragment key={idx}>
 	        {item && 
 			  <li className="">

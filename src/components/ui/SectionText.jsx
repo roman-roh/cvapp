@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section } from "./Section";
 
-export function SectionSingle({ name, data }) {
+export function SectionText({ name, data }) {
   return (
     <Section title={name}>
 	  <div className="section--content section--content-single-textarea">
