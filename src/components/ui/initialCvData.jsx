@@ -18,12 +18,22 @@ export const initialCvData = {
 
   },
   education: [
-	 {date_start_year:"2017", date_end_year:"2019", date_start_month:"", date_end_month:"", heading: "Bachelor of Arts in Marketing", subheading: "test subheading 1", content: "University of New York, New York, NY"},
+	 {
+		date_start_year:"2017",
+		date_end_year:"2019",
+		date_start_month:"",
+		date_end_month:"",
+		heading: "Bachelor of Arts in Marketing",
+		subheading: "test subheading 1", 
+		content: "University of New York, New York, NY"
+	 },
   ],
  
   experience: [
-	{date_start_year:"2017",
-		date_end_year:"2021", date_start_month:"February", 
+	{
+		date_start_year:"2017",
+		date_end_year:"2021", 
+		date_start_month:"February", 
 		date_end_month:"February", 
 		heading: "test heading",
 		subheading: "test subheading 1",
@@ -33,21 +43,20 @@ export const initialCvData = {
   skills: [
 	{label: 'Digital Marketing Strategy', value: 'Expert' },
 	{label: 'Content Creation & Management', value: 'Skilful' },
-	{label: 'Social Media Marketing (Facebook, Instagram, Twitter, LinkedIn)', value: 'Expert' },
-	
+	{label: 'Social Media Marketing (Facebook, Instagram, Twitter, LinkedIn)', value: 'Expert' },	
   ],
-
   
   languages: [{label: "English", value: 'B2'}, {label: "French", value: 'B1'} ],  
   interests: "jumping",
   resume: "Dynamic and results-oriented marketing professional with over 5 years of experience in digital marketing, brand strategy, and content creation. Proven track record in driving customer engagement and increasing revenue through innovative campaigns. Highly skilled in project management, social media marketing, and data analysis.",
   
   skills_select_option: [
-  { value: "Expert"}, 
-  { value: "Experienced"}, 
-  { value: "Skilful" }, 
-  { value: "Intermediate" },
-  { value: "Beginner"}],
+	  { value: "Expert"}, 
+	  { value: "Experienced"}, 
+	  { value: "Skilful" }, 
+	  { value: "Intermediate" },
+	  { value: "Beginner"}
+  ],
   
   languages_select_option: [
     { value: "Native speaker" },
@@ -74,6 +83,36 @@ export const initialCvData = {
 	{value: "September"},
 	{value: "October"},
 	{value: "November"},
-	{value: "December"},
-
-]};
+	{value: "December"}
+   ],
+   education_initial: 
+   {	
+	date_start_year:"",
+	date_end_year:"",
+	date_start_month:"",
+	date_end_month:"",
+	heading: "",
+	subheading: "", 
+	content: ""
+   },
+   experience_initial: 
+   {	
+	date_start_year:"",
+	date_end_year:"",
+	date_start_month:"",
+	date_end_month:"",
+	heading: "",
+	subheading: "", 
+	content: ""
+   }, 
+   languages_initial:
+   {	
+   	label: "",
+   	value: ""
+   },
+   skills_initial: 
+   {	
+	label: "",
+	value: ""
+   },
+};

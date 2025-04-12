@@ -85,7 +85,6 @@ export function useCVData() {
   }*/
 
   const handleQuillChange = (name: string) => (value: string) => {
-	console.log(name, value);
 	setCV((prev) => {
 		return deepCloneAndSet(prev, name, value);
 	})
@@ -108,8 +107,9 @@ export function useCVData() {
   }
   
   const onAdd = (name) => {
+	
 	setCV((prev) => {
-		return deepCloneAndAdd(prev, name, {label: "", value: ""});
+		return deepCloneAndAdd(prev, name, prev[name + '_initial']);
 	})
   }
   return { cvdata, handleInputChange, handleQuillChange, onDeleted, onAdd };

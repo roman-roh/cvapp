@@ -7,7 +7,7 @@ import SectionTextEditor from "./SectionTextEditor"
 
 export default function SectionGroupEditor({title, name, data, select_option, onChange, onDeleted, onAdd, handleQuillChange}) {
 
-		let years = Array.from({ length: 71 }, (_, i) => { 
+	let years = Array.from({ length: 71 }, (_, i) => { 
 		return {value: new Date().getFullYear() - i}
 	});
 	return (	
@@ -68,11 +68,9 @@ export default function SectionGroupEditor({title, name, data, select_option, on
   	    		    options={years}
   	    		  />
 			    </div>
-			  </div>
+     			<SectionTextEditor name={name} value={item[1].content} onChange={(e) => { handleQuillChange(name + '.' . idx + '.content' )}}  />
 
-			  <div className="section--title">
-			  	<SectionTextEditor name={name} value={item[1].content} onChange={(e) => { handleQuillChange(name + '.' . idx + '.content' )}}  />
-			  </div>   
+			  </div>
 
 			  <div className="form__fields-group form__fields-group--buttons">
 			    <button className="button--white button--delete-section-item">

@@ -17,7 +17,7 @@ export function SectionGroup({ name, data }) {
                      <div className="section--date">
 					 		{item.date_start_month && getShortMonthName(item.date_start_month)} {item.date_start_year && item.date_start_year} - {item.date_end_month && getShortMonthName(item.date_end_month)} {item.date_end_year && item.date_end_year}
 					 </div>
-					 <div class="section--heading">
+					 <div className="section--heading">
                          <h3>{item.heading}</h3>
                      </div>
 					{item.subheading && <div className="section--sub-heading">{item.subheading}</div>}
