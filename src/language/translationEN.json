@@ -1,0 +1,66 @@
+{
+  "title": {
+    "main": "Curriculum Vitae",
+    "personal": "Personal",
+    "resume": "Resume objective",
+    "education": "Education and Qualifications",
+    "experience": "Work Experience",
+    "skills": "Skills",
+    "interests": "Interests",
+    "languages": "Languages"
+  },
+  
+  "personal": {
+	"fullname": "Full Name",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "address": "Address",
+    "phone": "Phone number",
+    "email": "Email"
+  },
+
+  "skills_select_option": [
+    { "value": "Expert" },
+    { "value": "Experienced" },
+    { "value": "Skilful" },
+    { "value": "Intermediate" },
+    { "value": "Beginner" }
+  ],
+
+  "languages_select_option": [
+    { "value": "Native speaker" },
+    { "value": "Highly proficient in speaking and writing" },
+    { "value": "Very good command" },
+    { "value": "Good working knowledge" },
+    { "value": "Working knowledge" },
+    { "value": "A1" },
+    { "value": "A2" },
+    { "value": "B1" },
+    { "value": "B2" },
+    { "value": "C1" },
+    { "value": "C2" }
+  ],
+
+  "month_select_option": [
+    { "value": "January" },
+    { "value": "February" },
+    { "value": "March" },
+    { "value": "April" },
+    { "value": "May" },
+    { "value": "June" },
+    { "value": "July" },
+    { "value": "August" },
+    { "value": "September" },
+    { "value": "October" },
+    { "value": "November" },
+    { "value": "December" }
+  ],
+
+  "button": {
+    "next": "Next",
+    "back": "Back",
+    "print": "Print"
+  },
+
+  "change_language": "Change language"
+}

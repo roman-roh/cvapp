@@ -14,7 +14,7 @@ const Window: React.FC<CardContentProps> = ({ children, className }) => {
       className="bg-white shadow-lg border rounded-lg overflow-hidden"
 	  style={{ 
 		  zIndex: 100, 	  
-		  border: "2px solid #1E3A8A", // Tailwind blue-800 color
+		  border: "2px solid #1E3A8A", 
 	      borderRadius: "12px",
 	      boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
 		  backgroundColor: '#ffffff',  

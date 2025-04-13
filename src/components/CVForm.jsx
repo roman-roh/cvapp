@@ -5,43 +5,57 @@ import SectionGroupEditor from './ui/SectionGroupEditor';
 import SectionTextEditor from './ui/SectionTextEditor';
 import SectionListEditor from './ui/SectionListEditor';
 
+import MultiStepForm from './ui/MultiStepForm';
 
-export default function CVForm({ cvdata, handleInputChange, handleQuillChange, onDeleted, onAdd }) {
-	return (		
-    <div className="">
+
+import { useCVData } from "./../providers/CVDataContext"; 
+
+import { useTranslation } from 'react-i18next';
+
+
+export default function CVForm() {
+	const { data,  handleInputChange, handleQuillChange, onDeleted, onAdd } = useCVData();
+	
+	const { t } = useTranslation();
+
+	return (	
+	<MultiStepForm>	
 	  <div className="">
-		<h2>{cvdata.title.personal}</h2>
+		  <h2>{t('title.personal')}</h2>
+	      <Input name="personal.name.value" placeholder={t(data.personal.name.label)} value={data.personal.name.value || ""} onChange={handleInputChange} />
+		  <Input name="personal.address.value" placeholder={t(data.personal.address.label)} value={data.personal.address.value} onChange={handleInputChange} />
+		  <Input name="personal.phone.value" placeholder={t(data.personal.phone.label)} value={data.personal.phone.value} onChange={handleInputChange} />
+		  <Input name="personal.email.value" placeholder={t(data.personal.email.label)} value={data.personal.email.value} onChange={handleInputChange} />
 	  </div>   
-      <Input name="personal.name.value" placeholder={cvdata.personal.name.label} value={cvdata.personal.name.value || ""} onChange={handleInputChange} />
-	  <Input name="personal.address.value" placeholder={cvdata.personal.address.label} value={cvdata.personal.address.value} onChange={handleInputChange} />
-	  <Input name="personal.phone.value" placeholder={cvdata.personal.phone.label} value={cvdata.personal.phone.value} onChange={handleInputChange} />
-	  <Input name="personal.email.value" placeholder={cvdata.personal.email.label} value={cvdata.personal.email.value} onChange={handleInputChange} />
+	   
+	  <div className="">
+	  	<h2>{t('title.resume')}</h2>
+	  <SectionTextEditor name="resume" value={data.resume} onChange={handleQuillChange('resume')}  />
+	  </div>   
 	  
 	  <div className="">
-	  <SectionGroupEditor title={cvdata.title.education} name="education" data={cvdata.education} 
-	  select_option={cvdata.month_select_option} 
-	  onChange={handleInputChange}
-	  onDeleted={onDeleted}
-	  onAdd={onAdd}
-	  handleQuillChange= {handleQuillChange}
-
-	    />		
+		  <SectionGroupEditor title={t('title.education')} name="education" data={data.education} 
+		  select_option={data.month_select_option} 
+		  onChange={handleInputChange}
+		  onDeleted={onDeleted}
+		  onAdd={onAdd}
+		  handleQuillChange= {handleQuillChange}/>		
 	  </div> 
 	  
 	  <div className="">
-	  <SectionGroupEditor title={cvdata.title.experience} name="experience" data={cvdata.experience} 
-	  select_option={cvdata.month_select_option} 
-	  onChange={handleInputChange}
-	  onDeleted={onDeleted}
-	  onAdd={onAdd}
-	  handleQuillChange= {handleQuillChange}
-	    />		
+		  <SectionGroupEditor title={t('title.experience')} name="experience" data={data.experience} 
+		  select_option={data.month_select_option} 
+		  onChange={handleInputChange}
+		  onDeleted={onDeleted}
+		  onAdd={onAdd}
+		  handleQuillChange= {handleQuillChange}
+		    />		
 	  </div>   
 	  
 	  
 	  <div className="">
-		<SectionListEditor title={cvdata.title.skills} name="skills" data={cvdata.skills} 
-		select_option={cvdata.skills_select_option} 
+		<SectionListEditor title={t('title.skills')} name="skills" data={data.skills} 
+		select_option={data.skills_select_option} 
 		onChange={handleInputChange}
 		onDeleted={onDeleted}
 		onAdd={onAdd}
@@ -50,29 +64,20 @@ export default function CVForm({ cvdata, handleInputChange, handleQuillChange, o
 	  
 	  <div className="">
 	  	<SectionListEditor 
-		title={cvdata.title.languages} 
-		name="languages" data={cvdata.languages} 
-		select_option={cvdata.languages_select_option} 
+		title={t('title.languages')} 
+		name="languages" data={data.languages} 
+		select_option={data.languages_select_option} 
 		onChange={handleInputChange} 
 		onDeleted={onDeleted}
 		onAdd={onAdd}
 		 />		
 	   </div>  
-
-		 
-	  <div className="">
-	  	<h2>{cvdata.title.resume}</h2>
-		<SectionTextEditor name="resume" value={cvdata.resume} onChange={handleQuillChange('resume')}  />
-	  </div>   
 	  
 	  <div className="">
-	  	<h2>{cvdata.title.interests}</h2>
-	  	<SectionTextEditor name="interests" value={cvdata.interests} onChange={handleQuillChange('interests')}  />
+	  	<h2>{t('title.interests')}</h2>
+	  	<SectionTextEditor name="interests" value={data.interests} onChange={handleQuillChange('interests')}  />
 	  </div>   
-	  
-     {/*  <Input name="experience" placeholder="Work Experience" value={cv.experience} onChange={handleChange} />
-      <Input name="education" placeholder="Education" value={cv.education} onChange={handleChange} />
-      <Input name="skills" placeholder="Skills" value={cv.skills} onChange={handleChange} />*/}
-    </div>
+	
+    </MultiStepForm>
   );
 }

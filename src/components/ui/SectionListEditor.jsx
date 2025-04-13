@@ -18,7 +18,6 @@ export default function SectionListEditor({title, name, data, select_option, onC
 						  value={ item[1].label || ""} 
 						  onChange={onChange} />
 					  
-					  
 					  <Select
 					    name={name + '.' + idx + '.value'}
 						value={ item[1].value || ""} 

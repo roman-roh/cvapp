@@ -1,21 +1,9 @@
 export const initialCvData = {
-  title: 
-  {
-	main: "Curriculum Vitae",
-	personal: "Personal",
-	resume: "Resume objective",
-	education: "Education and Qualifications",
-	experience: "Work Experience",
-	skills: "Skills",
-	interests :"Interests",
-	languages: "Languages"
-  },
   personal: {
-	name: { label: "Name", value: "Roman Doe" },
-    address: { label: "Address", value: "New York, NY" },
-	phone: { label: "Phone number", value: "+1 (123) 456-7890" },
-	email: { label: "Email", value: "johndoe@example.com" },
-
+	name: { label: "personal.fullname", value: "Roman Doe" }, // @toDo add surname and firstname
+    address: { label: "personal.address", value: "New York, NY" },
+	phone: { label: "personal.phone", value: "+1 (123) 456-7890" },
+	email: { label: "personal.email", value: "johndoe@example.com" },
   },
   education: [
 	 {
@@ -115,4 +103,10 @@ export const initialCvData = {
 	label: "",
 	value: ""
    },
+   button:
+   {
+	next: "Next",
+	back: "Back",
+	print: "Print",
+   }
 };

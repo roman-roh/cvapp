@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Input({ value, onChange, placeholder, name, type = 'text', className }) {
+export function Input({ value, onChange, placeholder, name, type = 'text', className = '' }) {
   return (
     <input
       type={type}
@@ -8,7 +8,7 @@ export function Input({ value, onChange, placeholder, name, type = 'text', class
       value={value}
       onChange={onChange}
       placeholder={placeholder}
-      className={`m-3 px-4 py-2 rounded-md border border-grey-300 focus:ring-2 focus:ring-blue-400 transition-all ${className}`}
+      className={`w-full border p-2 rounded mb-2 ${className}`}
     />
   );
 }
