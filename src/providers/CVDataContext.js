@@ -91,11 +91,10 @@ export const CVDataProvider = ({ children }) => {
     }*/
 
     const handleQuillChange = (name: string) => (value: string) => {
-  	setCV((prev) => {
-  		return deepCloneAndSet(prev, name, value);
-  	})
-    };
-    
+	  	setCV((prev) => {
+	  		return deepCloneAndSet(prev, name, value);
+	  	})
+    };    
     
     const handleInputChange = (e) => {
 

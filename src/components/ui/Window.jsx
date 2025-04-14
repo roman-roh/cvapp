@@ -7,7 +7,7 @@ const Window: React.FC<CardContentProps> = ({ children, className }) => {
         x: 860,
         y: 100,
         width: 800,
-        height: 1140,
+        height: 1240,
       }}
       minWidth={200}
       minHeight={100}

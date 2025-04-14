@@ -1,6 +1,7 @@
 export const initialCvData = {
   personal: {
-	name: { label: "personal.fullname", value: "Roman Doe" }, // @toDo add surname and firstname
+	firstname: { label: "personal.firstname", value: "Roman" }, 
+	lastname: { label: "personal.lastname", value: "kkkkk" }, 
     address: { label: "personal.address", value: "New York, NY" },
 	phone: { label: "personal.phone", value: "+1 (123) 456-7890" },
 	email: { label: "personal.email", value: "johndoe@example.com" },

@@ -29,8 +29,11 @@ export default function MultiStepForm({ children }) {
             {t('button.back')}
           </button>
         )}
+		
+		{step == 0 && (<div></div>)}
+		
         {!isLast ? (
-          <button onClick={next} className="px-4 py-2 bg-blue-600 text-white rounded-lg ml-auto">
+          <button onClick={next} className="px-4 py-2 bg-blue-600 text-white rounded-lg mr-auto">
             {t('button.next')}
           </button>
         ) : (
