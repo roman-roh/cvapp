@@ -27,7 +27,6 @@ export function CVPreview() {
 
   const { photo} = usePhoto();
 
-  
   return (	
 	<div >	
 		<Window >					
@@ -48,12 +47,12 @@ export function CVPreview() {
 		   		     </div>
 			   	      
 			      <SectionList name={t('title.personal')} data={data.personal} />
-				  <SectionText name={t('title.resume')} data={data.resume} />
-			      <SectionGroup name={t('title.education')} data={data.education} />
-			      <SectionGroup name={t('title.experience')} data={data.experience} />
-			      <SectionList name={t('title.skills')} data={data.skills} />
-			      <SectionText name={t('title.interests')} data={data.interests} />
-				  <SectionList name={t('title.languages')} data={data.languages} />		
+				  {data.resume.replace(/<[^>]*>/g, '').length > 0 && <SectionText name={t('title.resume')} data={data.resume} />}
+			      {data.education.length > 0 && <SectionGroup name={t('title.education')} data={data.education} />}
+			      {data.experience.length > 0 && <SectionGroup name={t('title.experience')} data={data.experience} />}
+			      {data.skills.length > 0 && <SectionList name={t('title.skills')} data={data.skills} />}
+			      {data.interests.replace(/<[^>]*>/g, '').length > 0 && <SectionText name={t('title.interests')} data={data.interests} />}
+				  {data.languages.length > 0 && <SectionList name={t('title.languages')} data={data.languages} />}	
 			    </section>
 			</div>
 		</Window>

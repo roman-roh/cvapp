@@ -29,7 +29,6 @@
 
   "languages_select_option": [
     { "value": "Native speaker" },
-    { "value": "Highly proficient in speaking and writing" },
     { "value": "Very good command" },
     { "value": "Good working knowledge" },
     { "value": "Working knowledge" },
@@ -55,12 +54,13 @@
     { "value": "November" },
     { "value": "December" }
   ],
-
   "button": {
     "next": "Next",
     "back": "Back",
-    "print": "Print"
+    "print": "Print",
+    "remove": "Remove"
   },
-
+  "add_photo": "Add photo",
+  "optional": "optional",
   "change_language": "Change language"
 }

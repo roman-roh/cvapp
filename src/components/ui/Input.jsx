@@ -1,12 +1,13 @@
 import React from 'react';
 
-export function Input({ value, onChange, placeholder, name, type = 'text', className = '' }) {
+export function Input({ value, onChange, placeholder, name, type = 'text', className = '', onClick = ()=>{}}) {
   return (
     <input
       type={type}
       name={name}
-      value={value}
+      defaultValue={value}
       onChange={onChange}
+	  onClick={onClick}
       placeholder={placeholder}
       className={`w-full border p-2 rounded mb-2 ${className}`}
     />

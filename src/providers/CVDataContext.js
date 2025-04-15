@@ -27,6 +27,10 @@ export const CVDataProvider = ({ children }) => {
         current = current[key];
       }
 
+	  if(typeof value === "string" && current.upper_case === true){
+		value = value.toUpperCase();
+
+	  }
       current[keys.at(-1)] = value;
 
       return clone;
@@ -90,29 +94,30 @@ export const CVDataProvider = ({ children }) => {
       }, obj);
     }*/
 
-    const handleQuillChange = (name: string) => (value: string) => {
+	function handleChange(name: string) {
+
+	  return function(value: string) {
+		setCV((prev) => {
+		  		return deepCloneAndSet(prev, name, value);
+		  	})
+	  };
+	}
+	
+   
+    const handleInputChange = (e) => {
+	  	const { name, value } = e.target;
 	  	setCV((prev) => {
 	  		return deepCloneAndSet(prev, name, value);
 	  	})
-    };    
-    
-    const handleInputChange = (e) => {
-
-  	const { name, value } = e.target;
-
-  	setCV((prev) => {
-  		return deepCloneAndSet(prev, name, value);
-  	})
     };
     
-    const onDeleted = (name) => {
+    const onDeleteCategory = (name) => {
   	setCV((prev) => {
   		return deepCloneAndDelete(prev, name);
   	})
     }
     
-    const onAdd = (name) => {
-  	
+    const onAddCategory = (name) => {  	
 	  	setCV((prev) => {
 	  		return deepCloneAndAdd(prev, name, prev[name + '_initial']);
 	  	})
@@ -120,7 +125,7 @@ export const CVDataProvider = ({ children }) => {
    
 
   return (
-    <CVDataContext.Provider value={{ data, handleInputChange, handleQuillChange, onDeleted, onAdd }}>
+    <CVDataContext.Provider value={{ data, handleInputChange, handleChange, onDeleteCategory, onAddCategory }}>
       {children}
     </CVDataContext.Provider>
   );
