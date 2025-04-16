@@ -4,6 +4,7 @@ import {useReactToPrint} from "react-to-print";
 import { SectionGroup } from "./ui/SectionGroup";
 import { SectionList } from "./ui/SectionList";
 import { SectionText } from "./ui/SectionText";
+import { Button } from "./ui/Button/Button";
 
 import Window from "./../components/ui/Window";
 
@@ -28,9 +29,9 @@ export function CVPreview() {
   const { photo} = usePhoto();
 
   return (	
-	<div >	
+	< >	
 		<Window >					
-		    <button onClick={handlePrint}>{t('button.print')} </button>	
+		    <Button onClick={handlePrint}>{t('button.print')} </Button>	
 		    <div className='cvform' ref={previewRef}>			
 			
 			   <section className={'sections'}>	
@@ -56,7 +57,7 @@ export function CVPreview() {
 			    </section>
 			</div>
 		</Window>
-	</div>
+	</>
   );
 }
 

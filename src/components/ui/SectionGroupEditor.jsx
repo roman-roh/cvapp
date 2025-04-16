@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Section } from "./Section";
 import { Input } from "./Input";
 import { Select } from "./Select";
-import { Button } from "./Button";
+import { Button } from "./Button/Button";
 import SectionTextEditor from "./SectionTextEditor"
 
 import { useCVData } from "./../../providers/CVDataContext"; 
@@ -18,23 +18,23 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 	let years = Array.from({ length: 71 }, (_, i) => { 
 		return {value: new Date().getFullYear() - i}
 	});
-	console.log(name);
+
 	return (	
 	  <Section name={name} onAdd={onAdd} title={title}>	 
 	    <ol className="section--list">
 	      {Object.entries(data).map((item, idx) => (<React.Fragment key={idx}>
 	        {item && 
-			  <li className={`px-4 py-2 rounded ${
+			  <li className={`px-4 rounded ${
 				  activeFormId === idx ? 'bg-gray-100 ' : ''
 				}`}> 
-			  <div className="flex gap-4">
-			    <div className="flex-[3]  p-4 rounded">			 
+			  <div className="flex gap-2">
+			    <div className="flex-1  p-4 rounded">			 
 					<Input name={name + '.' + idx + '.heading'}
 				    placeholder="Heading" 
 				    value={ item[1].heading } 
 				    onChange={handleInputChange} />
 				</div>
-			    <div className="flex-[1] p-4 rounded">				
+			    <div className="flex-3 p-4 rounded">				
 					<button
 				           key={idx}
 				           onClick={() => setActiveFormId(idx)}
@@ -42,9 +42,18 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 				             activeFormId === idx ? 'bg-blue-500 text-white' : 'bg-gray-200'
 				           }`}
 				         >
-				           Edit
+						 <svg
+						   xmlns="http://www.w3.org/2000/svg"
+						   width="16"
+						   height="16"
+						   fill="currentColor"
+						   viewBox="0 0 20 20"
+						   aria-hidden="true"
+						 >
+						   <path d="M17.414 2.586a2 2 0 00-2.828 0L7.05 10.122a.5.5 0 00-.121.196l-2 6a.5.5 0 00.605.605l6-2a.5.5 0 00.196-.12l7.536-7.536a2 2 0 000-2.828zM15.793 4.207L13.793 2.207l1-1a1 1 0 011.414 1.414l-1 1zm-3 3L15.793 7.207l-7.086 7.086-2.586.862.862-2.586 7.086-7.086z"/>
+						 </svg>
 			         </button></div>
-			    <div className="flex-[1] p-4 rounded">				
+			    <div className="flex-3 p-4 rounded">				
 					<Button name={name + "." + idx }  onClick={onDeleteCategory}>
 			           <div className="">
 			             <svg
@@ -61,7 +70,7 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 			           </div>					         
 			        </Button></div>
 			  </div>
-				  {activeFormId == idx && <div>
+				  {activeFormId === idx && <div>
 					  <div className="grid grid-cols-2 gap-4">
 						<div className="grid grid-cols-2 gap-4">
 						     <Select
@@ -79,8 +88,7 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 						  	    options={years}
 						  	  />			
 						</div>
-						<div className="grid grid-cols-2 gap-4">
-		
+						<div className="grid grid-cols-2 gap-4">		
 						   <Select
 				  		    name={name + '.' + idx + '.date_end_month'}
 				  			value={ item[1].date_end_month || ""} 

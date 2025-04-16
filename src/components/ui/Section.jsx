@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from "./Button";
+import { Button } from "./Button/Button";
 import { useCVData } from "./../../providers/CVDataContext"; 
 
 export function Section({ title, children, name}) {	  

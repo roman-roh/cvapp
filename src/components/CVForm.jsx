@@ -1,6 +1,6 @@
 import React,  { useState } from 'react';
 import { Input } from './ui/Input';
-import { Button } from './ui/Button';
+import { Button } from './ui/Button/Button';
 import SectionGroupEditor from './ui/SectionGroupEditor';
 import SectionTextEditor from './ui/SectionTextEditor';
 import SectionListEditor from './ui/SectionListEditor';

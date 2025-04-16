@@ -1,11 +1,13 @@
 import { Rnd } from "react-rnd";
+import { useMediaQuery } from 'react-responsive';
 
 const Window: React.FC<CardContentProps> = ({ children, className }) => {
+  const isSmall = useMediaQuery({ maxWidth: 1199 });
   return (
     <Rnd
       default={{
-        x: 860,
-        y: 100,
+        x: isSmall ? 0 : 700,
+        y: isSmall ? 600 : 100,
         width: 800,
         height: 1240,
       }}
