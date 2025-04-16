@@ -1,0 +1,35 @@
+{	
+"select_skills": [
+  { "value": "Expert"}, 
+  { "value": "Experienced"}, 
+  { "value": "Skilful" }, 
+  { "value": "Intermediate" },
+  { "value": "Beginner"}
+],
+"select_languages": [
+  { "value": "Native speaker" },
+  { "value": "Very good command" },
+  { "value": "Good working knowledge" },
+  { "value": "Working knowledge" },
+  { "value": "A1" },
+  { "value": "A2" },
+  { "value": "B1" },
+  { "value": "B2" },
+  { "value": "C1" },
+  { "value": "C2" }
+],
+"select_month": [
+	{"value": "January"},
+	{"value": "February"},
+	{"value": "March"},
+	{"value": "April"},
+	{"value": "May"},
+	{"value": "June"},
+	{"value": "July"},
+	{"value": "August"},
+	{"value": "September"},
+	{"value": "October"},
+	{"value": "November"},
+	{"value": "December"}
+]
+}

@@ -1,0 +1,1342 @@
+{
+    "skills": [
+        {
+            "value": "Microsoft Excel"
+        },
+        {
+            "value": "Microsoft Word"
+        },
+        {
+            "value": "PowerPoint"
+        },
+        {
+            "value": "Google Workspace"
+        },
+        {
+            "value": "Data analysis"
+        },
+        {
+            "value": "SQL"
+        },
+        {
+            "value": "Python"
+        },
+        {
+            "value": "Java"
+        },
+        {
+            "value": "C++"
+        },
+        {
+            "value": "HTML/CSS"
+        },
+        {
+            "value": "JavaScript"
+        },
+        {
+            "value": "React"
+        },
+        {
+            "value": "PHP"
+        },
+        {
+            "value": "Git/GitHub"
+        },
+        {
+            "value": "API integration"
+        },
+        {
+            "value": "Cloud computing"
+        },
+        {
+            "value": "AWS"
+        },
+        {
+            "value": "Azure"
+        },
+        {
+            "value": "Salesforce"
+        },
+        {
+            "value": "Tableau"
+        },
+        {
+            "value": "Power BI"
+        },
+        {
+            "value": "AutoCAD"
+        },
+        {
+            "value": "MATLAB"
+        },
+        {
+            "value": "Adobe Photoshop"
+        },
+        {
+            "value": "Adobe Illustrator"
+        },
+        {
+            "value": "Adobe Premiere Pro"
+        },
+        {
+            "value": "WordPress"
+        },
+        {
+            "value": "Shopify"
+        },
+        {
+            "value": "QuickBooks"
+        },
+        {
+            "value": "ERP systems"
+        },
+        {
+            "value": "CRM software"
+        },
+        {
+            "value": "SPSS"
+        },
+        {
+            "value": "Canva"
+        },
+        {
+            "value": "SQL Server"
+        },
+        {
+            "value": "Linux"
+        },
+        {
+            "value": "Docker"
+        },
+        {
+            "value": "Kubernetes"
+        },
+        {
+            "value": "Networking"
+        },
+        {
+            "value": "Cybersecurity"
+        },
+        {
+            "value": "Blockchain basics"
+        },
+        {
+            "value": "JavaScript frameworks (e.g. },  Angular },  Vue)"
+        },
+        {
+            "value": "Ruby on Rails"
+        },
+        {
+            "value": "Jenkins"
+        },
+        {
+            "value": "Unit testing"
+        },
+        {
+            "value": "Machine learning"
+        },
+        {
+            "value": "AI programming"
+        },
+        {
+            "value": "Web scraping"
+        },
+        {
+            "value": "Mobile app development"
+        },
+        {
+            "value": "React Native"
+        },
+        {
+            "value": "Swift"
+        },
+        {
+            "value": "Objective-C"
+        },
+        {
+            "value": "Android development"
+        },
+        {
+            "value": "iOS development"
+        },
+        {
+            "value": "Database management"
+        },
+        {
+            "value": "MongoDB"
+        },
+        {
+            "value": "PostgreSQL"
+        },
+        {
+            "value": "MySQL"
+        },
+        {
+            "value": "NoSQL"
+        },
+        {
+            "value": "Data visualization"
+        },
+        {
+            "value": "PowerShell"
+        },
+        {
+            "value": "Vagrant"
+        },
+        {
+            "value": "Ansible"
+        },
+        {
+            "value": "Terraform"
+        },
+        {
+            "value": "Network security"
+        },
+        {
+            "value": "Penetration testing"
+        },
+        {
+            "value": "Reverse engineering"
+        },
+        {
+            "value": "GitLab"
+        },
+        {
+            "value": "JIRA"
+        },
+        {
+            "value": "SAP"
+        },
+        {
+            "value": "Communication"
+        },
+        {
+            "value": "Teamwork"
+        },
+        {
+            "value": "Problem-solving"
+        },
+        {
+            "value": "Adaptability"
+        },
+        {
+            "value": "Time management"
+        },
+        {
+            "value": "Creativity"
+        },
+        {
+            "value": "Leadership"
+        },
+        {
+            "value": "Emotional intelligence"
+        },
+        {
+            "value": "Conflict resolution"
+        },
+        {
+            "value": "Decision-making"
+        },
+        {
+            "value": "Active listening"
+        },
+        {
+            "value": "Attention to detail"
+        },
+        {
+            "value": "Critical thinking"
+        },
+        {
+            "value": "Work ethic"
+        },
+        {
+            "value": "Self-motivation"
+        },
+        {
+            "value": "Multitasking"
+        },
+        {
+            "value": "Resilience"
+        },
+        {
+            "value": "Collaboration"
+        },
+        {
+            "value": "Positive attitude"
+        },
+        {
+            "value": "Negotiation"
+        },
+        {
+            "value": "Mentoring"
+        },
+        {
+            "value": "Interpersonal skills"
+        },
+        {
+            "value": "Conflict management"
+        },
+        {
+            "value": "Delegation"
+        },
+        {
+            "value": "Cultural sensitivity"
+        },
+        {
+            "value": "Networking"
+        },
+        {
+            "value": "Open-mindedness"
+        },
+        {
+            "value": "Stress management"
+        },
+        {
+            "value": "Patience"
+        },
+        {
+            "value": "Self-confidence"
+        },
+        {
+            "value": "Presentation skills"
+        },
+        {
+            "value": "Team building"
+        },
+        {
+            "value": "Customer-focused"
+        },
+        {
+            "value": "Analytical thinking"
+        },
+        {
+            "value": "Empathy"
+        },
+        {
+            "value": "Innovation"
+        },
+        {
+            "value": "Proactive attitude"
+        },
+        {
+            "value": "Relationship-building"
+        },
+        {
+            "value": "Project management"
+        },
+        {
+            "value": "Strategic planning"
+        },
+        {
+            "value": "Business development"
+        },
+        {
+            "value": "Risk management"
+        },
+        {
+            "value": "Operations management"
+        },
+        {
+            "value": "Financial analysis"
+        },
+        {
+            "value": "Budgeting"
+        },
+        {
+            "value": "Forecasting"
+        },
+        {
+            "value": "Stakeholder management"
+        },
+        {
+            "value": "Agile methodologies"
+        },
+        {
+            "value": "Scrum"
+        },
+        {
+            "value": "Lean management"
+        },
+        {
+            "value": "Change management"
+        },
+        {
+            "value": "KPI tracking"
+        },
+        {
+            "value": "Business process improvement"
+        },
+        {
+            "value": "OKR planning"
+        },
+        {
+            "value": "Vendor management"
+        },
+        {
+            "value": "Business writing"
+        },
+        {
+            "value": "Market research"
+        },
+        {
+            "value": "Cross-functional leadership"
+        },
+        {
+            "value": "Product development"
+        },
+        {
+            "value": "Supply chain management"
+        },
+        {
+            "value": "Contract negotiation"
+        },
+        {
+            "value": "Financial forecasting"
+        },
+        {
+            "value": "Process optimization"
+        },
+        {
+            "value": "Brand management"
+        },
+        {
+            "value": "Customer satisfaction"
+        },
+        {
+            "value": "Team performance management"
+        },
+        {
+            "value": "Organizational design"
+        },
+        {
+            "value": "Consulting"
+        },
+        {
+            "value": "Product lifecycle management"
+        },
+        {
+            "value": "Innovation management"
+        },
+        {
+            "value": "Compliance management"
+        },
+        {
+            "value": "Data-driven decision making"
+        },
+        {
+            "value": "Service management"
+        },
+        {
+            "value": "Team leadership"
+        },
+        {
+            "value": "Corporate strategy"
+        },
+        {
+            "value": "Market expansion"
+        },
+        {
+            "value": "Competitive analysis"
+        },
+        {
+            "value": "SEO"
+        },
+        {
+            "value": "SEM"
+        },
+        {
+            "value": "Google Analytics"
+        },
+        {
+            "value": "Social media marketing"
+        },
+        {
+            "value": "Email marketing"
+        },
+        {
+            "value": "Content creation"
+        },
+        {
+            "value": "Copywriting"
+        },
+        {
+            "value": "Branding"
+        },
+        {
+            "value": "Product marketing"
+        },
+        {
+            "value": "Influencer outreach"
+        },
+        {
+            "value": "CRM tools (e.g. },  HubSpot)"
+        },
+        {
+            "value": "B2B sales"
+        },
+        {
+            "value": "B2C marketing"
+        },
+        {
+            "value": "Lead generation"
+        },
+        {
+            "value": "Market segmentation"
+        },
+        {
+            "value": "Ad campaign management"
+        },
+        {
+            "value": "Customer journey mapping"
+        },
+        {
+            "value": "Event planning"
+        },
+        {
+            "value": "A/B testing"
+        },
+        {
+            "value": "Affiliate marketing"
+        },
+        {
+            "value": "Salesforce automation"
+        },
+        {
+            "value": "PPC (Pay-per-click)"
+        },
+        {
+            "value": "Google Ads"
+        },
+        {
+            "value": "Facebook Ads"
+        },
+        {
+            "value": "LinkedIn advertising"
+        },
+        {
+            "value": "Remarketing"
+        },
+        {
+            "value": "Customer relationship management"
+        },
+        {
+            "value": "Sales strategy"
+        },
+        {
+            "value": "Product positioning"
+        },
+        {
+            "value": "Customer insights"
+        },
+        {
+            "value": "Community building"
+        },
+        {
+            "value": "Mobile marketing"
+        },
+        {
+            "value": "Viral marketing"
+        },
+        {
+            "value": "Sales presentations"
+        },
+        {
+            "value": "Negotiating contracts"
+        },
+        {
+            "value": "Sales pipeline management"
+        },
+        {
+            "value": "Partnerships"
+        },
+        {
+            "value": "Customer loyalty programs"
+        },
+        {
+            "value": "Customer support"
+        },
+        {
+            "value": "Client relations"
+        },
+        {
+            "value": "Conflict de-escalation"
+        },
+        {
+            "value": "CRM navigation"
+        },
+        {
+            "value": "Helpdesk software"
+        },
+        {
+            "value": "Complaint resolution"
+        },
+        {
+            "value": "Phone etiquette"
+        },
+        {
+            "value": "Live chat support"
+        },
+        {
+            "value": "Order processing"
+        },
+        {
+            "value": "Upselling"
+        },
+        {
+            "value": "Customer retention"
+        },
+        {
+            "value": "Feedback analysis"
+        },
+        {
+            "value": "Support ticket management"
+        },
+        {
+            "value": "Customer onboarding"
+        },
+        {
+            "value": "Product troubleshooting"
+        },
+        {
+            "value": "Client satisfaction surveys"
+        },
+        {
+            "value": "Social media monitoring"
+        },
+        {
+            "value": "Customer data management"
+        },
+        {
+            "value": "Multilingual support"
+        },
+        {
+            "value": "Customer feedback loops"
+        },
+        {
+            "value": "Quality assurance"
+        },
+        {
+            "value": "Response time optimization"
+        },
+        {
+            "value": "Curriculum development"
+        },
+        {
+            "value": "Lesson planning"
+        },
+        {
+            "value": "Classroom management"
+        },
+        {
+            "value": "Educational technology"
+        },
+        {
+            "value": "eLearning platforms"
+        },
+        {
+            "value": "Assessment & evaluation"
+        },
+        {
+            "value": "Training delivery"
+        },
+        {
+            "value": "Public speaking"
+        },
+        {
+            "value": "Coaching"
+        },
+        {
+            "value": "Tutoring"
+        },
+        {
+            "value": "Teacher training"
+        },
+        {
+            "value": "Test preparation"
+        },
+        {
+            "value": "Subject matter expertise"
+        },
+        {
+            "value": "Behavioral management"
+        },
+        {
+            "value": "Digital content creation"
+        },
+        {
+            "value": "Online education"
+        },
+        {
+            "value": "Instructional design"
+        },
+        {
+            "value": "Performance assessment"
+        },
+        {
+            "value": "Student engagement"
+        },
+        {
+            "value": "Adult education"
+        },
+        {
+            "value": "Teaching methodologies"
+        },
+        {
+            "value": "Certification programs"
+        },
+        {
+            "value": "Mentorship"
+        },
+        {
+            "value": "Peer tutoring"
+        },
+        {
+            "value": "Learning management systems (LMS)"
+        },
+        {
+            "value": "Facilitation"
+        },
+        {
+            "value": "Research and development"
+        },
+        {
+            "value": "Interactive learning"
+        },
+        {
+            "value": "Mechanical design"
+        },
+        {
+            "value": "Electrical schematics"
+        },
+        {
+            "value": "Troubleshooting"
+        },
+        {
+            "value": "QA/QC testing"
+        },
+        {
+            "value": "Product lifecycle management"
+        },
+        {
+            "value": "Robotics"
+        },
+        {
+            "value": "Technical drawing"
+        },
+        {
+            "value": "Industrial automation"
+        },
+        {
+            "value": "CNC machining"
+        },
+        {
+            "value": "Manufacturing processes"
+        },
+        {
+            "value": "Welding"
+        },
+        {
+            "value": "HVAC systems"
+        },
+        {
+            "value": "Embedded systems"
+        },
+        {
+            "value": "CAD software"
+        },
+        {
+            "value": "PLC programming"
+        },
+        {
+            "value": "Circuit design"
+        },
+        {
+            "value": "Materials science"
+        },
+        {
+            "value": "Data modeling"
+        },
+        {
+            "value": "Signal processing"
+        },
+        {
+            "value": "Energy systems"
+        },
+        {
+            "value": "System integration"
+        },
+        {
+            "value": "Testing protocols"
+        },
+        {
+            "value": "Automation tools"
+        },
+        {
+            "value": "Drones"
+        },
+        {
+            "value": "Smart technologies"
+        },
+        {
+            "value": "Energy management"
+        },
+        {
+            "value": "3D printing"
+        },
+        {
+            "value": "Soldering"
+        },
+        {
+            "value": "English (Fluent)"
+        },
+        {
+            "value": "Spanish (Conversational)"
+        },
+        {
+            "value": "French (Basic)"
+        },
+        {
+            "value": "Arabic (Native)"
+        },
+        {
+            "value": "Chinese (Mandarin)"
+        },
+        {
+            "value": "German"
+        },
+        {
+            "value": "Japanese"
+        },
+        {
+            "value": "Russian"
+        },
+        {
+            "value": "Portuguese"
+        },
+        {
+            "value": "Hindi"
+        },
+        {
+            "value": "Italian"
+        },
+        {
+            "value": "Dutch"
+        },
+        {
+            "value": "Korean"
+        },
+        {
+            "value": "Turkish"
+        },
+        {
+            "value": "Swedish"
+        },
+        {
+            "value": "Greek"
+        },
+        {
+            "value": "Polish"
+        },
+        {
+            "value": "Czech"
+        },
+        {
+            "value": "Finnish"
+        },
+        {
+            "value": "Romanian"
+        },
+        {
+            "value": "Hebrew"
+        },
+        {
+            "value": "Thai"
+        },
+        {
+            "value": "Vietnamese"
+        },
+        {
+            "value": "Ukrainian"
+        },
+        {
+            "value": "Bengali"
+        },
+        {
+            "value": "Tagalog"
+        },
+        {
+            "value": "Malay"
+        },
+        {
+            "value": "Norwegian"
+        },
+        {
+            "value": "Hungarian"
+        },
+        {
+            "value": "Bulgarian"
+        },
+        {
+            "value": "Financial reporting"
+        },
+        {
+            "value": "Tax preparation"
+        },
+        {
+            "value": "Cost control"
+        },
+        {
+            "value": "Financial modeling"
+        },
+        {
+            "value": "Payroll management"
+        },
+        {
+            "value": "Audit preparation"
+        },
+        {
+            "value": "Bookkeeping"
+        },
+        {
+            "value": "Invoicing"
+        },
+        {
+            "value": "Account reconciliation"
+        },
+        {
+            "value": "Financial compliance"
+        },
+        {
+            "value": "Investment analysis"
+        },
+        {
+            "value": "Cash flow management"
+        },
+        {
+            "value": "Accounts payable"
+        },
+        {
+            "value": "Accounts receivable"
+        },
+        {
+            "value": "Credit management"
+        },
+        {
+            "value": "Financial forecasting"
+        },
+        {
+            "value": "Risk management"
+        },
+        {
+            "value": "Accounting software"
+        },
+        {
+            "value": "Financial auditing"
+        },
+        {
+            "value": "Balance sheet analysis"
+        },
+        {
+            "value": "Capital budgeting"
+        },
+        {
+            "value": "Financial statement preparation"
+        },
+        {
+            "value": "Tax compliance"
+        },
+        {
+            "value": "Revenue forecasting"
+        },
+        {
+            "value": "Portfolio management"
+        },
+        {
+            "value": "Financial analysis tools"
+        },
+        {
+            "value": "Corporate finance"
+        },
+        {
+            "value": "Budget planning"
+        },
+        {
+            "value": "Patient care"
+        },
+        {
+            "value": "Clinical research"
+        },
+        {
+            "value": "Laboratory skills"
+        },
+        {
+            "value": "Medical records"
+        },
+        {
+            "value": "EMR systems"
+        },
+        {
+            "value": "HIPAA compliance"
+        },
+        {
+            "value": "First aid/CPR"
+        },
+        {
+            "value": "Health education"
+        },
+        {
+            "value": "Scientific writing"
+        },
+        {
+            "value": "Data collection"
+        },
+        {
+            "value": "Medical billing"
+        },
+        {
+            "value": "Pharmaceutical knowledge"
+        },
+        {
+            "value": "Anatomy & physiology"
+        },
+        {
+            "value": "Medical coding"
+        },
+        {
+            "value": "Nursing"
+        },
+        {
+            "value": "Public health policy"
+        },
+        {
+            "value": "Biotechnology"
+        },
+        {
+            "value": "Environmental health"
+        },
+        {
+            "value": "Nutrition"
+        },
+        {
+            "value": "Epidemiology"
+        },
+        {
+            "value": "Health data analysis"
+        },
+        {
+            "value": "Medical imaging"
+        },
+        {
+            "value": "Clinical trials"
+        },
+        {
+            "value": "Healthcare IT systems"
+        },
+        {
+            "value": "Surgical assisting"
+        },
+        {
+            "value": "Telemedicine"
+        },
+        {
+            "value": "Medical transcription"
+        },
+        {
+            "value": "Pharmacy management"
+        },
+        {
+            "value": "Blueprint reading"
+        },
+        {
+            "value": "Carpentry"
+        },
+        {
+            "value": "Plumbing"
+        },
+        {
+            "value": "Electrical wiring"
+        },
+        {
+            "value": "OSHA safety standards"
+        },
+        {
+            "value": "Masonry"
+        },
+        {
+            "value": "Site supervision"
+        },
+        {
+            "value": "Welding"
+        },
+        {
+            "value": "Surveying"
+        },
+        {
+            "value": "Heavy equipment operation"
+        },
+        {
+            "value": "Building codes"
+        },
+        {
+            "value": "HVAC installation"
+        },
+        {
+            "value": "Concrete work"
+        },
+        {
+            "value": "Roofing"
+        },
+        {
+            "value": "Landscaping"
+        },
+        {
+            "value": "Project estimation"
+        },
+        {
+            "value": "Remodeling"
+        },
+        {
+            "value": "Tile setting"
+        },
+        {
+            "value": "Drywall installation"
+        },
+        {
+            "value": "Construction project management"
+        },
+        {
+            "value": "Site inspection"
+        },
+        {
+            "value": "Structural design"
+        },
+        {
+            "value": "Road construction"
+        },
+        {
+            "value": "Forklift operation"
+        },
+        {
+            "value": "Safety protocol implementation"
+        },
+        {
+            "value": "Graphic design"
+        },
+        {
+            "value": "Video editing"
+        },
+        {
+            "value": "Motion graphics"
+        },
+        {
+            "value": "Photography"
+        },
+        {
+            "value": "Creative writing"
+        },
+        {
+            "value": "Art direction"
+        },
+        {
+            "value": "UX/UI design"
+        },
+        {
+            "value": "Animation"
+        },
+        {
+            "value": "Illustration"
+        },
+        {
+            "value": "Storyboarding"
+        },
+        {
+            "value": "Film production"
+        },
+        {
+            "value": "Web design"
+        },
+        {
+            "value": "Concept art"
+        },
+        {
+            "value": "3D modeling"
+        },
+        {
+            "value": "Character design"
+        },
+        {
+            "value": "UI/UX research"
+        },
+        {
+            "value": "Prototyping"
+        },
+        {
+            "value": "Visual storytelling"
+        },
+        {
+            "value": "Video production"
+        },
+        {
+            "value": "Digital painting"
+        },
+        {
+            "value": "Event styling"
+        },
+        {
+            "value": "Brand identity design"
+        },
+        {
+            "value": "Print media design"
+        },
+        {
+            "value": "Photography editing"
+        },
+        {
+            "value": "Visual effects (VFX)"
+        },
+        {
+            "value": "Sound design"
+        },
+        {
+            "value": "Music production"
+        },
+        {
+            "value": "Public speaking"
+        },
+        {
+            "value": "Personal branding"
+        },
+        {
+            "value": "LinkedIn networking"
+        },
+        {
+            "value": "Resume writing"
+        },
+        {
+            "value": "Interviewing"
+        },
+        {
+            "value": "Time blocking"
+        },
+        {
+            "value": "Self-discipline"
+        },
+        {
+            "value": "Goal setting"
+        },
+        {
+            "value": "Networking"
+        },
+        {
+            "value": "Personal finance management"
+        },
+        {
+            "value": "Mindfulness"
+        },
+        {
+            "value": "Stress management"
+        },
+        {
+            "value": "Work-life balance"
+        },
+        {
+            "value": "Self-awareness"
+        },
+        {
+            "value": "Learning agility"
+        },
+        {
+            "value": "Continuous learning"
+        },
+        {
+            "value": "Mentorship"
+        },
+        {
+            "value": "Decision-making"
+        },
+        {
+            "value": "Time management strategies"
+        },
+        {
+            "value": "Career coaching"
+        },
+        {
+            "value": "Problem-solving frameworks"
+        },
+        {
+            "value": "Personal growth"
+        },
+        {
+            "value": "Workplace etiquette"
+        },
+        {
+            "value": "Vision setting"
+        },
+        {
+            "value": "Focus improvement"
+        },
+        {
+            "value": "Career progression planning"
+        },
+        {
+            "value": "Remote collaboration"
+        },
+        {
+            "value": "Virtual meeting tools (Zoom },  Teams)"
+        },
+        {
+            "value": "File management"
+        },
+        {
+            "value": "Research skills"
+        },
+        {
+            "value": "Note-taking"
+        },
+        {
+            "value": "Typing speed (WPM)"
+        },
+        {
+            "value": "Email etiquette"
+        },
+        {
+            "value": "Cultural awareness"
+        },
+        {
+            "value": "Sustainability awareness"
+        },
+        {
+            "value": "Digital literacy"
+        },
+        {
+            "value": "Self-learning"
+        },
+        {
+            "value": "Documentation management"
+        },
+        {
+            "value": "Public relations"
+        },
+        {
+            "value": "Event coordination"
+        },
+        {
+            "value": "Conflict mediation"
+        },
+        {
+            "value": "Networking software"
+        },
+        {
+            "value": "Data entry"
+        },
+        {
+            "value": "Legal knowledge"
+        },
+        {
+            "value": "Volunteer coordination"
+        },
+        {
+            "value": "Travel coordination"
+        }
+    ]
+}

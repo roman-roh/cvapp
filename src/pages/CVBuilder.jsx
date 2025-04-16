@@ -10,6 +10,7 @@ import LanguageToggle from './../components/ui/LanguageToggle';
 
 import { CVDataProvider } from "./../providers/CVDataContext"; 
 import { PhotoProvider } from './../providers/PhotoContext';
+import { CVSelectDataProvider } from "./../providers/CVSelectDataContext"; 
 
 import "./styles.css";
 
@@ -19,7 +20,9 @@ export default function CVBuilder() {
 			<PhotoProvider>	
 	        	<CVPreview/>			
 				<LanguageToggle />
-				<CVForm />
+				<CVSelectDataProvider>
+					<CVForm />
+				</CVSelectDataProvider>
 	        </PhotoProvider>
 		</CVDataProvider>
 	);

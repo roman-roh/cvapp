@@ -14,41 +14,6 @@ export const initialCvData = {
   languages: [],  
   interests: "",
   resume: "",
-  
-  skills_select_option: [
-	  { value: "Expert"}, 
-	  { value: "Experienced"}, 
-	  { value: "Skilful" }, 
-	  { value: "Intermediate" },
-	  { value: "Beginner"}
-  ],
-  
-  languages_select_option: [
-    { value: "Native speaker" },
-    { value: "Very good command" },
-    { value: "Good working knowledge" },
-    { value: "Working knowledge" },
-    { value: "A1" },
-    { value: "A2" },
-    { value: "B1" },
-    { value: "B2" },
-    { value: "C1" },
-    { value: "C2" }
-  ],
-  month_select_option: [
-	{value: "January"},
-	{value: "February"},
-	{value: "March"},
-	{value: "April"},
-	{value: "May"},
-	{value: "June"},
-	{value: "July"},
-	{value: "August"},
-	{value: "September"},
-	{value: "October"},
-	{value: "November"},
-	{value: "December"}
-   ],
    education_initial: 
    {	
 	date_start_year:"",
@@ -78,11 +43,5 @@ export const initialCvData = {
    {	
 	label: "",
 	value: ""
-   },
-   button:
-   {
-	next: "Next",
-	back: "Back",
-	print: "Print",
    }
 };
