@@ -6,16 +6,19 @@ import { Button } from "./Button";
 import SectionTextEditor from "./SectionTextEditor"
 
 import { useCVData } from "./../../providers/CVDataContext"; 
+import { useSelectData } from "./../../providers/CVSelectDataContext"; 
 
 
 export default function SectionGroupEditor({title, name, data, select_option}) {
 	const { handleChange, handleInputChange, onAdd, onDeleteCategory} = useCVData();
-	
+	const { getSelectData } = useSelectData();
+
 	const [activeFormId, setActiveFormId] = useState(Object.entries(data) - 1); 
 	
 	let years = Array.from({ length: 71 }, (_, i) => { 
 		return {value: new Date().getFullYear() - i}
 	});
+	console.log(name);
 	return (	
 	  <Section name={name} onAdd={onAdd} title={title}>	 
 	    <ol className="section--list">
@@ -66,7 +69,7 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 								value={ item[1].date_start_month || ""} 
 							    onChange={handleInputChange}
 							    placeholder="-"
-							    options={select_option}
+							    options={getSelectData('select_month')}
 							  />
 							  <Select
 						  	    name={name + '.' + idx + '.date_start_year'}
@@ -83,7 +86,7 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 				  			value={ item[1].date_end_month || ""} 
 				  		    onChange={handleInputChange}
 				  		    placeholder="-"
-				  		    options={select_option}
+				  		    options={getSelectData('select_month')}
 				  		  />				  
 						  <Select
 			    		    name={name + '.' + idx + '.date_end_year'}
