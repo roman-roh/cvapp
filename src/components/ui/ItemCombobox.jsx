@@ -25,7 +25,7 @@ export function ItemCombobox({value, name, className = '', options = []}) {
 		console.log(filteredOptions);
 		
 	  return (
-    <div className="${className}"> 
+    <div className="{className}"> 
       <Combobox value={value} onChange={(value)=>{handleChange(name)(value);}}>
         <div className="relative">
           <Combobox.Input

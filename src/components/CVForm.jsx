@@ -1,6 +1,5 @@
 import React,  { useState } from 'react';
 import { Input } from './ui/Input';
-import { Button } from './ui/Button/Button';
 import SectionGroupEditor from './ui/SectionGroupEditor';
 import SectionTextEditor from './ui/SectionTextEditor';
 import SectionListEditor from './ui/SectionListEditor';
@@ -13,10 +12,9 @@ import { useTranslation } from 'react-i18next';
 
 export default function CVForm() {
 	
-	const { data,  handleInputChange, handleChange, onDeleted, onAdd } = useCVData();
+	const { data,  handleInputChange, handleChange } = useCVData();
 	
 	const { t } = useTranslation();
-	const [notificationsEnabled, setNotificationsEnabled] = useState(true);
 
 	return (	
 	<MultiStepForm>	

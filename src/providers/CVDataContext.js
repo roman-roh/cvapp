@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext } from "react";
+import React, { useEffect, createContext, useState, useContext, useRef } from "react";
 
 import { initialCvData } from "./initialCvData";
 
@@ -9,7 +9,36 @@ export const useCVData = () => {
 };
 
 export const CVDataProvider = ({ children }) => {
+
   const [data, setCV] = useState(initialCvData);  
+  
+  const isFirstRender = useRef(true);
+
+  useEffect(() => {
+	const savedData = localStorage.getItem('cvworkingversion');
+
+    if (savedData) {
+		console.log('test 1');
+		console.log(JSON.parse(savedData));
+      setCV(JSON.parse(savedData));
+    } else {
+		console.log('test 2');
+
+      setCV(initialCvData);
+
+    }
+  }, []);
+  
+  useEffect(() => {
+	if (isFirstRender.current) {
+	  isFirstRender.current = false;
+	  return;
+	}
+	console.log('test 3');
+
+  	localStorage.setItem('cvworkingversion', JSON.stringify(data));
+  }, [data]);
+
   
   function deepCloneAndSet(obj, path, value) {
       const keys = path.split('.');
@@ -82,47 +111,34 @@ export const CVDataProvider = ({ children }) => {
 
       return clone;
     }
-    
-    /*function setByPath(obj, path, value) {
-      path.split('.').reduce((acc, key, i, arr) => {
-        if (i === arr.length - 1) {
-          acc[key] = value;
-        } else {
-          acc[key] = acc[key] || {};
-        }
-        return acc[key];
-      }, obj);
-    }*/
 
 	function handleChange(name: string) {
 
 	  return function(value: string) {
 		setCV((prev) => {
-		  		return deepCloneAndSet(prev, name, value);
-		  	})
+	  		return deepCloneAndSet(prev, name, value);
+	  	});
 	  };
 	}
-	
    
     const handleInputChange = (e) => {
 	  	const { name, value } = e.target;
 	  	setCV((prev) => {
 	  		return deepCloneAndSet(prev, name, value);
-	  	})
+	  	});
     };
     
     const onDeleteCategory = (name) => {
-  	setCV((prev) => {
-  		return deepCloneAndDelete(prev, name);
-  	})
+	  	setCV((prev) => {
+	  		return deepCloneAndDelete(prev, name);
+	  	});
     }
     
     const onAddCategory = (name) => {  	
 	  	setCV((prev) => {
 	  		return deepCloneAndAdd(prev, name, prev[name + '_initial']);
-	  	})
-    }
-   
+	  	});
+    }   
 
   return (
     <CVDataContext.Provider value={{ data, handleInputChange, handleChange, onDeleteCategory, onAddCategory }}>
