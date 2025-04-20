@@ -1,4 +1,6 @@
-import React, { createContext, useState, useContext } from "react";
+import React, { createContext, useState, useContext, useEffect } from "react";
+
+import { useTranslation } from 'react-i18next';
 
 const CVSelectDataContext = createContext();
 
@@ -7,29 +9,39 @@ export const useSelectData = () => {
 };
 
 export const CVSelectDataProvider = ({ children }) => {
-  
-  const jsonContext = require.context('./../data', false, /\.json$/);
+  const { i18n } = useTranslation();
+  const lang = i18n.language; 
 
-  
-  const allJsonData = jsonContext.keys().map((key) => {
-    return {
-      fileName: key.replace('./', ''),
-      content: jsonContext(key),
-    };
-  });
+  const [selectData, setSelectData] = useState(null);  
 
-  const mergedContent = allJsonData.reduce((acc, file) => {
-    return { ...acc, ...file.content };
-  }, {});
-  
-  const [selectData, setSelectData] = useState(mergedContent);  
+  useEffect(() => {
+	const jsonContext = require.context('./../data/', true, /\.json$/);
+	const allJsonData = jsonContext.keys().map((key) => {
+		if(!key.includes(`/${lang}/`)){
+			return null;
+		}
 
+		return {
+		    fileName: key.replace('./', ''),
+		    content: jsonContext(key),
+		  };
+	}).filter(Boolean);
+
+	const mergedContent = allJsonData.reduce((acc, file) => {
+	  return { ...acc, ...file.content };
+	}, {});
+
+	setSelectData(mergedContent);
+  }, [lang]); 
+  
+  
   const getSelectData = (name) => {
+
 	return selectData[name];	
   }
    
   return (
-    <CVSelectDataContext.Provider value={{ getSelectData }}>
+    <CVSelectDataContext.Provider value={{ selectData, getSelectData }}>
       {children}
     </CVSelectDataContext.Provider>
   );

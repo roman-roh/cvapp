@@ -3,7 +3,6 @@ import { Section } from "./Section";
 
 import { useTranslation } from 'react-i18next';
 
-
 export function SectionList({ name, data }) {
   const { t } = useTranslation();
 

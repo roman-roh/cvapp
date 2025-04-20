@@ -6,11 +6,11 @@ import { ItemCombobox } from "./ItemCombobox";
 import { useCVData } from "./../../providers/CVDataContext"; 
 import { useSelectData } from "./../../providers/CVSelectDataContext"; 
 
-export default function SectionListEditor({title, name, select_option}) {
+export default function SectionListEditor({title, name}) {
 	const { onDeleteCategory, data } = useCVData();
 	const { getSelectData } = useSelectData();
 
-		return (	
+	return (	
 	  <Section name={name} title={title}>	 
 	    <ol className="section--list">
 	      {Object.entries(data[name]).map((item, idx) => (

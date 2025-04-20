@@ -1,0 +1,823 @@
+{
+  "skills": [
+    { "value": "Microsoft Excel" },
+    { "value": "Microsoft Word" },
+    { "value": "PowerPoint" },
+    { "value": "Google Workspace" },
+    { "value": "Analyse de données" },
+    { "value": "SQL" },
+    { "value": "Python" },
+    { "value": "Java" },
+    { "value": "C++" },
+    { "value": "HTML/CSS" },
+    { "value": "JavaScript" },
+    { "value": "React" },
+    { "value": "PHP" },
+    { "value": "Git/GitHub" },
+    { "value": "Intégration d’API" },
+    { "value": "Informatique en nuage" },
+    { "value": "AWS" },
+    { "value": "Azure" },
+    { "value": "Salesforce" },
+    { "value": "Tableau" },
+    { "value": "Power BI" },
+    { "value": "AutoCAD" },
+    { "value": "MATLAB" },
+    { "value": "Adobe Photoshop" },
+    { "value": "Adobe Illustrator" },
+    { "value": "Adobe Premiere Pro" },
+    { "value": "WordPress" },
+    { "value": "Shopify" },
+    { "value": "QuickBooks" },
+    { "value": "Systèmes ERP" },
+    { "value": "Logiciel CRM" },
+    { "value": "SPSS" },
+    { "value": "Canva" },
+    { "value": "SQL Server" },
+    { "value": "Linux" },
+    { "value": "Docker" },
+    { "value": "Kubernetes" },
+    { "value": "Réseautage" },
+    { "value": "Cybersécurité" },
+    { "value": "Notions de blockchain" },
+    { "value": "Frameworks JavaScript (ex. Angular, Vue)" },
+    { "value": "Ruby on Rails" },
+    { "value": "Jenkins" },
+    { "value": "Tests unitaires" },
+    { "value": "Apprentissage automatique" },
+    { "value": "Programmation IA" },
+    { "value": "Extraction de données web" },
+    { "value": "Développement d’applications mobiles" },
+    { "value": "React Native" },
+    { "value": "Swift" },
+    { "value": "Objective-C" },
+    { "value": "Développement Android" },
+    { "value": "Développement iOS" },
+    { "value": "Gestion de base de données" },
+    { "value": "MongoDB" },
+    { "value": "PostgreSQL" },
+    { "value": "MySQL" },
+    { "value": "NoSQL" },
+    { "value": "Visualisation de données" },
+    { "value": "PowerShell" },
+    { "value": "Vagrant" },
+    { "value": "Ansible" },
+    { "value": "Terraform" },
+    { "value": "Sécurité réseau" },
+    { "value": "Tests de pénétration" },
+    { "value": "Rétro-ingénierie" },
+    { "value": "GitLab" },
+    { "value": "JIRA" },
+    { "value": "SAP" },
+    { "value": "Communication" },
+    { "value": "Travail d’équipe" },
+    { "value": "Résolution de problèmes" },
+    { "value": "Adaptabilité" },
+    { "value": "Gestion du temps" },
+    { "value": "Créativité" },
+    { "value": "Leadership" },
+    { "value": "Intelligence émotionnelle" },
+    { "value": "Résolution de conflits" },
+    { "value": "Prise de décision" },
+    { "value": "Écoute active" },
+    { "value": "Souci du détail" },
+    { "value": "Pensée critique" },
+    { "value": "Éthique de travail" },
+    { "value": "Autonomie" },
+    { "value": "Multitâche" },
+    { "value": "Résilience" },
+    { "value": "Collaboration" },
+    { "value": "Attitude positive" },
+    { "value": "Négociation" },
+    { "value": "Mentorat" },
+    { "value": "Compétences interpersonnelles" },
+    { "value": "Gestion des conflits" },
+    { "value": "Délégation" },
+    { "value": "Sensibilité culturelle" },
+    { "value": "Réseautage" },
+    { "value": "Ouverture d’esprit" },
+    { "value": "Gestion du stress" },
+    { "value": "Patience" },
+    { "value": "Confiance en soi" },
+    { "value": "Compétences en présentation" },
+    { "value": "Cohésion d’équipe" },
+    { "value": "Orientation client" },
+    { "value": "Pensée analytique" },
+    { "value": "Empathie" },
+    { "value": "Innovation" },
+    { "value": "Attitude proactive" },
+    { "value": "Création de relations" },
+    { "value": "Gestion de projet" },
+    { "value": "Planification stratégique" },
+    { "value": "Développement commercial" },
+    { "value": "Gestion des risques" },
+    { "value": "Gestion des opérations" },
+    { "value": "Analyse financière" },
+    { "value": "Élaboration de budgets" },
+    { "value": "Prévisions financières" },
+    { "value": "Gestion des parties prenantes" },
+    { "value": "Méthodologies Agile" },
+    { "value": "Scrum" },
+    { "value": "Gestion Lean" },
+    { "value": "Gestion du changement" },
+    { "value": "Suivi des KPI" },
+    { "value": "Amélioration des processus métiers" },
+    { "value": "Planification OKR" },
+    { "value": "Gestion des fournisseurs" },
+    { "value": "Rédaction professionnelle" },
+    { "value": "Étude de marché" },
+    { "value": "Leadership interfonctionnel" },
+    { "value": "Développement de produit" },
+    { "value": "Gestion de la chaîne d’approvisionnement" },
+    { "value": "Négociation de contrats" },
+    { "value": "Prévisions financières" },
+    { "value": "Optimisation des processus" },
+	{
+	            "value": "Gestion de projet"
+	        },
+	        {
+	            "value": "Gestion de la marque"
+	        },
+	        {
+	            "value": "Satisfaction client"
+	        },
+	        {
+	            "value": "Gestion des performances d'équipe"
+	        },
+	        {
+	            "value": "Conception organisationnelle"
+	        },
+	        {
+	            "value": "Consultation"
+	        },
+	        {
+	            "value": "Gestion du cycle de vie des produits"
+	        },
+	        {
+	            "value": "Gestion de l'innovation"
+	        },
+	        {
+	            "value": "Gestion de la conformité"
+	        },
+	        {
+	            "value": "Prise de décision basée sur les données"
+	        },
+	        {
+	            "value": "Gestion des services"
+	        },
+	        {
+	            "value": "Leadership d'équipe"
+	        },
+	        {
+	            "value": "Stratégie d'entreprise"
+	        },
+	        {
+	            "value": "Expansion de marché"
+	        },
+	        {
+	            "value": "Analyse concurrentielle"
+	        },
+	        {
+	            "value": "SEO"
+	        },
+	        {
+	            "value": "SEM"
+	        },
+	        {
+	            "value": "Google Analytics"
+	        },
+	        {
+	            "value": "Marketing sur les réseaux sociaux"
+	        },
+	        {
+	            "value": "Marketing par email"
+	        },
+	        {
+	            "value": "Création de contenu"
+	        },
+	        {
+	            "value": "Rédaction publicitaire"
+	        },
+	        {
+	            "value": "Branding"
+	        },
+	        {
+	            "value": "Marketing produit"
+	        },
+	        {
+	            "value": "Relations avec les influenceurs"
+	        },
+	        {
+	            "value": "Outils CRM (par exemple, HubSpot)"
+	        },
+	        {
+	            "value": "Ventes B2B"
+	        },
+	        {
+	            "value": "Marketing B2C"
+	        },
+	        {
+	            "value": "Génération de leads"
+	        },
+	        {
+	            "value": "Segmentation de marché"
+	        },
+	        {
+	            "value": "Gestion des campagnes publicitaires"
+	        },
+	        {
+	            "value": "Cartographie du parcours client"
+	        },
+	        {
+	            "value": "Planification d'événements"
+	        },
+	        {
+	            "value": "Tests A/B"
+	        },
+	        {
+	            "value": "Marketing d'affiliation"
+	        },
+	        {
+	            "value": "Automatisation des ventes"
+	        },
+	        {
+	            "value": "PPC (Pay-per-click)"
+	        },
+	        {
+	            "value": "Google Ads"
+	        },
+	        {
+	            "value": "Facebook Ads"
+	        },
+	        {
+	            "value": "Publicité LinkedIn"
+	        },
+	        {
+	            "value": "Remarketing"
+	        },
+	        {
+	            "value": "Gestion de la relation client"
+	        },
+	        {
+	            "value": "Stratégie de vente"
+	        },
+	        {
+	            "value": "Positionnement produit"
+	        },
+	        {
+	            "value": "Insights client"
+	        },
+	        {
+	            "value": "Création de communauté"
+	        },
+	        {
+	            "value": "Marketing mobile"
+	        },
+	        {
+	            "value": "Marketing viral"
+	        },
+	        {
+	            "value": "Présentations de vente"
+	        },
+	        {
+	            "value": "Négociation de contrats"
+	        },
+	        {
+	            "value": "Gestion du pipeline de ventes"
+	        },
+	        {
+	            "value": "Partenariats"
+	        },
+	        {
+	            "value": "Programmes de fidélisation client"
+	        },
+	        {
+	            "value": "Support client"
+	        },
+	        {
+	            "value": "Relations clients"
+	        },
+	        {
+	            "value": "Désescalade des conflits"
+	        },
+	        {
+	            "value": "Navigation CRM"
+	        },
+	        {
+	            "value": "Logiciels de support"
+	        },
+	        {
+	            "value": "Résolution des plaintes"
+	        },
+	        {
+	            "value": "Étiquette téléphonique"
+	        },
+	        {
+	            "value": "Support en chat en direct"
+	        },
+	        {
+	            "value": "Traitement des commandes"
+	        },
+	        {
+	            "value": "Upselling"
+	        },
+	        {
+	            "value": "Rétention client"
+	        },
+	        {
+	            "value": "Analyse des retours"
+	        },
+	        {
+	            "value": "Gestion des tickets de support"
+	        },
+	        {
+	            "value": "Intégration des clients"
+	        },
+	        {
+	            "value": "Dépannage produit"
+	        },
+	        {
+	            "value": "Enquêtes de satisfaction client"
+	        },
+	        {
+	            "value": "Suivi des réseaux sociaux"
+	        },
+	        {
+	            "value": "Gestion des données clients"
+	        },
+	        {
+	            "value": "Support multilingue"
+	        },
+	        {
+	            "value": "Boucles de rétroaction client"
+	        },
+	        {
+	            "value": "Assurance qualité"
+	        },
+	        {
+	            "value": "Optimisation du temps de réponse"
+	        },
+	        {
+	            "value": "Développement de curriculum"
+	        },
+	        {
+	            "value": "Planification de cours"
+	        },
+	        {
+	            "value": "Gestion de classe"
+	        },
+	        {
+	            "value": "Technologies éducatives"
+	        },
+	        {
+	            "value": "Plateformes d'apprentissage en ligne"
+	        },
+	        {
+	            "value": "Évaluation et examen"
+	        },
+	        {
+	            "value": "Livraison de formation"
+	        },
+	        {
+	            "value": "Prise de parole en public"
+	        },
+	        {
+	            "value": "Coaching"
+	        },
+	        {
+	            "value": "Tutoring"
+	        },
+	        {
+	            "value": "Formation des enseignants"
+	        },
+	        {
+	            "value": "Préparation aux examens"
+	        },
+	        {
+	            "value": "Expertise en la matière"
+	        },
+	        {
+	            "value": "Gestion comportementale"
+	        },
+	        {
+	            "value": "Création de contenu numérique"
+	        },
+	        {
+	            "value": "Éducation en ligne"
+	        },
+	        {
+	            "value": "Conception pédagogique"
+	        },
+	        {
+	            "value": "Évaluation des performances"
+	        },
+	        {
+	            "value": "Engagement des étudiants"
+	        },
+	        {
+	            "value": "Éducation des adultes"
+	        },
+	        {
+	            "value": "Méthodes d'enseignement"
+	        },
+	        {
+	            "value": "Programmes de certification"
+	        },
+	        {
+	            "value": "Mentorat"
+	        },
+	        {
+	            "value": "Tutorat entre pairs"
+	        },
+	        {
+	            "value": "Systèmes de gestion de l'apprentissage (LMS)"
+	        },
+	        {
+	            "value": "Facilitation"
+	        },
+	        {
+	            "value": "Recherche et développement"
+	        },
+	        {
+	            "value": "Apprentissage interactif"
+	        },
+	        {
+	            "value": "Conception mécanique"
+	        },
+	        {
+	            "value": "Schémas électriques"
+	        },
+	        {
+	            "value": "Dépannage"
+	        },
+	        {
+	            "value": "Tests QA/QC"
+	        },
+	        {
+	            "value": "Gestion du cycle de vie des produits"
+	        },
+	        {
+	            "value": "Robotique"
+	        },
+	        {
+	            "value": "Dessin technique"
+	        },
+	        {
+	            "value": "Automatisation industrielle"
+	        },
+	        {
+	            "value": "Usinage CNC"
+	        },
+	        {
+	            "value": "Processus de fabrication"
+	        },
+	        {
+	            "value": "Soudage"
+	        },
+	        {
+	            "value": "Systèmes HVAC"
+	        },
+	        {
+	            "value": "Systèmes embarqués"
+	        },
+	        {
+	            "value": "Logiciels CAO"
+	        },
+	        {
+	            "value": "Programmation PLC"
+	        },
+	        {
+	            "value": "Conception de circuits"
+	        },
+	        {
+	            "value": "Science des matériaux"
+	        },
+	        {
+	            "value": "Modélisation des données"
+	        },
+	        {
+	            "value": "Traitement du signal"
+	        },
+	        {
+	            "value": "Systèmes énergétiques"
+	        },
+	        {
+	            "value": "Intégration des systèmes"
+	        },
+	        {
+	            "value": "Protocoles de test"
+	        },
+	        {
+	            "value": "Outils d'automatisation"
+	        },
+	        {
+	            "value": "Drones"
+	        },
+	        {
+	            "value": "Technologies intelligentes"
+	        },
+	        {
+	            "value": "Gestion de l'énergie"
+	        },
+	        {
+	            "value": "Impression 3D"
+	        },
+	        {
+	            "value": "Soudure"
+	        },
+	        {
+	            "value": "Anglais (Courant)"
+	        },
+	        {
+	            "value": "Espagnol (Conversationnel)"
+	        },
+	        {
+	            "value": "Français (De base)"
+	        },
+	        {
+	            "value": "Arabe (Natif)"
+	        },
+	        {
+	            "value": "Chinois (Mandarin)"
+	        },
+	        {
+	            "value": "Allemand"
+	        },
+	        {
+	            "value": "Japonais"
+	        },
+	        {
+	            "value": "Russe"
+	        },
+	        {
+	            "value": "Portugais"
+	        },
+	        {
+	            "value": "Hindi"
+	        },
+	        {
+	            "value": "Italien"
+	        },
+	        {
+	            "value": "Néerlandais"
+	        },
+	        {
+	            "value": "Coréen"
+	        },
+	        {
+	            "value": "Turc"
+	        },
+	        {
+	            "value": "Suédois"
+	        },
+	        {
+	            "value": "Grec"
+	        },
+	        {
+	            "value": "Polonais"
+	        },
+	        {
+	            "value": "Tchèque"
+	        },
+	        {
+	            "value": "Finlandais"
+	        },
+	        {
+	            "value": "Roumain"
+	        },
+	        {
+	            "value": "Hébreu"
+	        },
+	        {
+	            "value": "Thaï"
+	        },
+	        {
+	            "value": "Vietnamien"
+	        },
+	        {
+	            "value": "Ukrainien"
+	        },
+	        {
+	            "value": "Bengali"
+	        },
+	        {
+	            "value": "Tagalog"
+	        },
+	        {
+	            "value": "Malais"
+	        },
+	        {
+	            "value": "Norvégien"
+	        },
+	        {
+	            "value": "Hongrois"
+	        },
+	        {
+	            "value": "Bulgare"
+	        },
+	        {
+	            "value": "Reporting financier"
+	        },
+	        {
+	            "value": "Préparation fiscale"
+	        },
+	        {
+	            "value": "Contrôle des coûts"
+	        },
+	        {
+	            "value": "Modélisation financière"
+	        },
+	        {
+	            "value": "Gestion de la paie"
+	        },
+	        {
+	            "value": "Préparation des audits"
+	        },
+	        {
+	            "value": "Comptabilité"
+	        },
+	        {
+	            "value": "Facturation"
+	        },
+	        {
+	            "value": "Rapprochement des comptes"
+	        },
+	        {
+	            "value": "Conformité financière"
+	        },
+	        {
+	            "value": "Analyse des investissements"
+	        },
+	        {
+	            "value": "Gestion des flux de trésorerie"
+	        },
+	        {
+	            "value": "Comptes créditeurs"
+	        },
+	        {
+	            "value": "Comptes débiteurs"
+	        },
+	        {
+	            "value": "Gestion du crédit"
+	        },
+	        {
+	            "value": "Prévisions financières"
+	        },
+	        {
+	            "value": "Gestion des risques"
+	        },
+	        {
+	            "value": "Logiciels comptables"
+	        },
+	        {
+	            "value": "Audit financier"
+	        },
+	        {
+	            "value": "Analyse du bilan"
+	        },
+	        {
+	            "value": "Budgetisation du capital"
+	        },
+	        {
+	            "value": "Préparation des états financiers"
+	        },
+	        {
+	            "value": "Conformité fiscale"
+	        },
+	        {
+	            "value": "Prévision des revenus"
+	        },
+	        {
+	            "value": "Gestion de portefeuille"
+	        },
+	        {
+	            "value": "Outils d'analyse financière"
+	        },
+	        {
+	            "value": "Finances d'entreprise"
+	        },
+	        {
+	            "value": "Planification budgétaire"
+	        },
+	        {
+	            "value": "Soins aux patients"
+	        },
+	        {
+	            "value": "Recherche clinique"
+	        },
+	        {
+	            "value": "Compétences en laboratoire"
+	        },
+	        {
+	            "value": "Dossiers médicaux"
+	        },
+	        {
+	            "value": "Systèmes EMR"
+	        },
+	        {
+	            "value": "Conformité HIPAA"
+	        },
+	        {
+	            "value": "Premiers secours/CPR"
+	        },
+	        {
+	            "value": "Éducation à la santé"
+	        },
+	        {
+	            "value": "Rédaction scientifique"
+	        },
+	        {
+	            "value": "Collecte de données"
+	        },
+	        {
+	            "value": "Facturation médicale"
+	        },
+	        {
+	            "value": "Connaissances pharmaceutiques"
+	        },
+	        {
+	            "value": "Anatomie et physiologie"
+	        },
+	        {
+	            "value": "Codage médical"
+	        },
+	        {
+	            "value": "Soins infirmiers"
+	        },
+	        {
+	            "value": "Politique de santé publique"
+	        },
+	        {
+	            "value": "Biotechnologie"
+	        },
+	        {
+	            "value": "Santé environnementale"
+	        },
+	        {
+	            "value": "Nutrition"
+	        },
+	        {
+	            "value": "Épidémiologie"
+	        },
+	        {
+	            "value": "Analyse des données de santé"
+	        },
+	        {
+	            "value": "Imagerie médicale"
+	        },
+	        {
+	            "value": "Essais cliniques"
+	        },
+	        {
+	            "value": "Systèmes informatiques de santé"
+	        },
+	        {
+	            "value": "Assistance chirurgicale"
+	        },
+	        {
+	            "value": "Télémédecine"
+	        },
+	        {
+	            "value": "Transcription médicale"
+	        },
+	        {
+	            "value": "Gestion pharmaceutique"
+	        },
+	        {
+	            "value": "Lecture de plans"
+	        },
+	        {
+	            "value": "Menuiserie"
+	        },
+	        {
+	            "value": "Plomberie"
+	        },
+	        {
+	            "value": "Câblage électrique"
+	        },
+	        {
+	            "value": "Normes de sécurité OSHA"
+	        },
+	        {
+	            "value": "Maçonnerie"
+	        },
+	        {
+	            "value": "Supervision de chantier"
+	        },
+	        {
+	            "value": "Soudage"
+	        },
+	        {
+	            "value": "Topographie"
+	        },
+	        {
+	            "value": "Opération d'équipements lourds"
+	        },
+	        {
+	            "value": "Normes de construction"
+	        },
+	        {
+	            "value": "Installation HVAC"
+	        }
+		]}
+

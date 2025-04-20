@@ -77,17 +77,17 @@ body {
 }
 
 .box p,
-.box ul {
+.box ol {
   font-size: 14px;
   color: #333;
   margin: 0;
 }
 
-.box ul {
+.box ol {
   padding-left: 20px;
   margin-top: 5px;
 }
 
-.box ul li {
+.box ol li {
   margin-bottom: 5px;
 }

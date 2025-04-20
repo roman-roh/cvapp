@@ -14,14 +14,16 @@ import "./styles.css";
 
 export default function CVBuilder() {	
     return (
+		<>
+		<LanguageToggle />
 		<CVDataProvider>
 			<PhotoProvider>	
-				<LanguageToggle />
 				<CVSelectDataProvider>
 					<CVForm />
 				</CVSelectDataProvider>
 				<CVPreview/>		
 	        </PhotoProvider>
 		</CVDataProvider>
+		</>
 	);
 }

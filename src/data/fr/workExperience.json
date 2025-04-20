@@ -1,0 +1,32 @@
+{
+  "experience": [
+    {
+      "value": "Babysitting",
+      "context": "1. Surveiller et assurer la sécurité des enfants.\n2. Préparer les repas et aider aux devoirs si besoin.\n3. Organiser des activités ludiques et éducatives."
+    },
+    {
+      "value": "Jardinage",
+      "context": "1. Tondre la pelouse, tailler les haies, désherber.\n2. Arroser les plantes et entretenir les espaces verts.\n3. Ramasser les déchets végétaux."
+    },
+    {
+      "value": "Petsitting (garde d’animaux)",
+      "context": "1. Nourrir et promener les animaux.\n2. Nettoyer les litières ou cages.\n3. Surveiller la santé et le comportement de l’animal."
+    },
+    {
+      "value": "Aide dans l’organisation d’événements",
+      "context": "1. Installer et démonter le matériel (tables, chaises, déco...).\n2. Accueillir les invités, orienter les participants.\n3. Participer au service ou à la logistique pendant l’événement."
+    },
+    {
+      "value": "Aide au ménage",
+      "context": "1. Nettoyer les sols, les surfaces, la vaisselle, etc.\n2. Ranger les pièces selon les consignes.\n3. Respecter les règles d’hygiène et utiliser les bons produits."
+    },
+    {
+      "value": "Vente porte à porte (voyages scolaires, projets étudiants, etc.)",
+      "context": "1. Présenter les produits ou la cause avec clarté et enthousiasme.\n2. Gérer les paiements et commandes.\n3. Tenir un registre des ventes et livraisons."
+    },
+    {
+      "value": "Vente pour une association caritative",
+      "context": "1. Expliquer l’objectif ou la mission de l’association.\n2. Distribuer ou vendre des produits (gâteaux, objets faits main…).\n3. Collecter les dons et remercier les contributeurs."
+    }
+  ]
+}

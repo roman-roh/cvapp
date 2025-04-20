@@ -53,13 +53,11 @@ export default function CVForm() {
 		  <SectionGroupEditor title={t('title.education')} 
 		  name="education" 
 		  data={data.education} 
-		  select_option={data.month_select_option}
 		  />
   	  </div> 
 	  
 	  <div className="">
 		  <SectionGroupEditor title={t('title.experience')} name="experience" data={data.experience} 
-		  select_option={data.month_select_option} 
 		    />		
 	  </div>   
 	  
@@ -68,7 +66,6 @@ export default function CVForm() {
 		<SectionListEditor 
 		    title={t('title.skills')} 
 		    name="skills"
-			select_option={data.skills_select_option} 
 			handleChange={handleChange}
 		  />		
 	  </div>   
@@ -77,7 +74,6 @@ export default function CVForm() {
 	  	<SectionListEditor 
 			title={t('title.languages')} 
 			name="languages"
-			select_option={data.languages_select_option} 
 		 />	
 	   </div>  
 	  

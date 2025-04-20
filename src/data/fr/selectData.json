@@ -1,0 +1,35 @@
+{
+  "select_skills": [
+    { "value": "Expert" }, 
+    { "value": "Expérimenté" }, 
+    { "value": "Habile" }, 
+    { "value": "Intermédiaire" },
+    { "value": "Débutant" }
+  ],
+  "select_languages": [
+    { "value": "Langue maternelle" },
+    { "value": "Très bonne maîtrise" },
+    { "value": "Bonne maîtrise professionnelle" },
+    { "value": "Maîtrise professionnelle" },
+    { "value": "A1" },
+    { "value": "A2" },
+    { "value": "B1" },
+    { "value": "B2" },
+    { "value": "C1" },
+    { "value": "C2" }
+  ],
+  "select_month": [
+    { "value": "Janvier" },
+    { "value": "Février" },
+    { "value": "Mars" },
+    { "value": "Avril" },
+    { "value": "Mai" },
+    { "value": "Juin" },
+    { "value": "Juillet" },
+    { "value": "Août" },
+    { "value": "Septembre" },
+    { "value": "Octobre" },
+    { "value": "Novembre" },
+    { "value": "Décembre" }
+  ]
+}

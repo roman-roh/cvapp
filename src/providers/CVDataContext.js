@@ -18,14 +18,9 @@ export const CVDataProvider = ({ children }) => {
 	const savedData = localStorage.getItem('cvworkingversion');
 
     if (savedData) {
-		console.log('test 1');
-		console.log(JSON.parse(savedData));
       setCV(JSON.parse(savedData));
     } else {
-		console.log('test 2');
-
-      setCV(initialCvData);
-
+		setCV(initialCvData);
     }
   }, []);
   
@@ -34,7 +29,6 @@ export const CVDataProvider = ({ children }) => {
 	  isFirstRender.current = false;
 	  return;
 	}
-	console.log('test 3');
 
   	localStorage.setItem('cvworkingversion', JSON.stringify(data));
   }, [data]);
@@ -123,7 +117,8 @@ export const CVDataProvider = ({ children }) => {
    
     const handleInputChange = (e) => {
 	  	const { name, value } = e.target;
-	  	setCV((prev) => {
+
+		setCV((prev) => {
 	  		return deepCloneAndSet(prev, name, value);
 	  	});
     };

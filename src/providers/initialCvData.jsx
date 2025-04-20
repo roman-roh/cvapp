@@ -3,7 +3,7 @@ export const initialCvData = {
 	firstname: { label: "personal.firstname", value: "", 'hide_empty_value': true}, 
 	lastname: { label: "personal.lastname", value: "", 'upper_case': true, 'hide_empty_value': true}, 
     address: { label: "personal.address", value: "", 'hide_empty_value': true },
-	phone: { label: "personal.phone", value: "+35", 'hide_empty_value': true },
+	phone: { label: "personal.phone", value: "", 'hide_empty_value': true },
 	email: { label: "personal.email", value: "", 'hide_empty_value': true },
   },
   
@@ -14,7 +14,7 @@ export const initialCvData = {
   languages: [],  
   interests: "",
   resume: "",
-   education_initial: 
+  education_initial: 
    {	
 	date_start_year:"",
 	date_end_year:"",

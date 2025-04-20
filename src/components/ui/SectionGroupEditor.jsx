@@ -4,12 +4,13 @@ import { Input } from "./Input";
 import { Select } from "./Select";
 import { Button } from "./Button/Button";
 import SectionTextEditor from "./SectionTextEditor"
+import { ItemCombobox } from "./ItemCombobox";
 
 import { useCVData } from "./../../providers/CVDataContext"; 
 import { useSelectData } from "./../../providers/CVSelectDataContext"; 
 
 
-export default function SectionGroupEditor({title, name, data, select_option}) {
+export default function SectionGroupEditor({title, name, data}) {
 	const { handleChange, handleInputChange, onAdd, onDeleteCategory} = useCVData();
 	const { getSelectData } = useSelectData();
 
@@ -25,14 +26,18 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 	      {Object.entries(data).map((item, idx) => (<React.Fragment key={idx}>
 	        {item && 
 			  <li className={`px-4 rounded ${
-				  activeFormId === idx ? 'bg-gray-100 ' : ''
-				}`}> 
-			  <div className="flex gap-2">
-			    <div className="flex-1  p-4 rounded">			 
-					<Input name={name + '.' + idx + '.heading'}
-				    placeholder="Heading" 
-				    value={ item[1].heading } 
-				    onChange={handleInputChange} />
+				  activeFormId === idx ? 'bg-gray-50 ' : ''
+				}`}>  
+						     
+			  <div className="flex gap-0">
+			    <div className="flex-1  p-2 rounded">
+					<ItemCombobox 
+						className="w-full" 
+						name={name + '.' + idx + '.heading'} 
+						value={ item[1].heading }
+					 	options={ getSelectData( name )}
+						placeholder="Search or type heading"
+						afterChange={(value)=> (handleChange(name + '.' + idx + '.content')(value))}  />						
 				</div>
 			    <div className="flex-3 p-4 rounded">				
 					<button
@@ -43,15 +48,16 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 				           }`}
 				         >
 						 <svg
-						   xmlns="http://www.w3.org/2000/svg"
-						   width="16"
-						   height="16"
-						   fill="currentColor"
-						   viewBox="0 0 20 20"
-						   aria-hidden="true"
+						    xmlns="http://www.w3.org/2000/svg"
+						    width="16"
+						    height="16"
+						    fill="currentColor"
+						    viewBox="0 0 20 20"
+						    aria-hidden="true"
 						 >
-						   <path d="M17.414 2.586a2 2 0 00-2.828 0L7.05 10.122a.5.5 0 00-.121.196l-2 6a.5.5 0 00.605.605l6-2a.5.5 0 00.196-.12l7.536-7.536a2 2 0 000-2.828zM15.793 4.207L13.793 2.207l1-1a1 1 0 011.414 1.414l-1 1zm-3 3L15.793 7.207l-7.086 7.086-2.586.862.862-2.586 7.086-7.086z"/>
+						    <path d="M10 2a1 1 0 011 1v6h6a1 1 0 110 2h-6v6a1 1 0 11-2 0v-6H2a1 1 0 110-2h6V3a1 1 0 011-1z"/>
 						 </svg>
+
 			         </button></div>
 			    <div className="flex-3 p-4 rounded">				
 					<Button name={name + "." + idx }  onClick={onDeleteCategory}>
@@ -71,7 +77,7 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 			        </Button></div>
 			  </div>
 				  {activeFormId === idx && <div>
-					  <div className="grid grid-cols-2 gap-4">
+					  <div className="grid grid-cols-2 gap-4 p-2">
 						<div className="grid grid-cols-2 gap-4">
 						     <Select
 							    name={name + '.' + idx + '.date_start_month'}
@@ -106,13 +112,21 @@ export default function SectionGroupEditor({title, name, data, select_option}) {
 						</div>
 			
 				  </div>
-				
-				  <Input name={name + '.' + idx + '.subheading'}
-				  	  placeholder="Subheading" 
-				  	  value={ item[1].subheading } 
-				  	  onChange={handleInputChange} />
-					  
-	     		  <SectionTextEditor name={name} value={item[1].content} onChange={(value)=> (handleChange(name + '.' + idx + '.content')(value))}  />
+				  <div className="p-2">
+				  	<Input name={name + '.' + idx + '.subheading'}
+	  			  	  placeholder="Subheading" 
+	  			  	  value={ item[1].subheading } 
+	  			  	  onChange={handleInputChange} />
+	  				  
+				  </div>
+
+				  <div className="p-4">
+	     			<SectionTextEditor className=""
+					name={name} 
+					value={item[1].content} 
+					onChange={(value)=> (handleChange(name + '.' + idx + '.content')(value))}  />
+				  </div>
+
 			  </div>}
 	        </li>
 		    }</React.Fragment>

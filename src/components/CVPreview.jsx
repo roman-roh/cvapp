@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import {useReactToPrint} from "react-to-print";
 import { useTranslation } from 'react-i18next';
 
@@ -17,12 +17,18 @@ export function CVPreview() {
 	contentRef: previewRef,
   });    
 
+  const [nameTemplate, setNameTemplate] = useState('standart'); 
+  
   return (	
 	<>	
 		<Window >					
 		    <Button onClick={handlePrint}>{t('button.print')} </Button>	
+			<Button onClick={(e) => {
+				setNameTemplate((Math.random() < 0.5 ? 'standart' : 'studentjob'));	
+			}}>Change Template </Button>	
+
 		    <div className='cvform' ref={previewRef}>					
-			  <TemplateSelector />
+			  <TemplateSelector name={nameTemplate} />
 			</div>
 		</Window>
 	</>

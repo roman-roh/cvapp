@@ -1,10 +1,9 @@
 import React from "react";
 import "./style.css";
-import { useCVData } from "./../../../providers/CVDataContext"; 
 
-const CristinaCV = () => {
-  const { data } = useCVData();
-console.log(data);
+import { DescriptionText } from "./../../DescriptionText/DescriptionText";
+import { LabelValueList } from './LabelValueList/LabelValueList'
+const CristinaCV = ({data}) => {
   return (
     <div className="cv">
       <div className="header">
@@ -23,25 +22,18 @@ console.log(data);
 
         <div className="box">
           <h3>MON PROFIL</h3>
-          <p>Je suis une personne calme, ordonnée et positive.</p>
+		  	<DescriptionText data={data.resume} />
         </div>
 
         <div className="box">
           <h3>LOGICIELS</h3>
-          <ul>
-            <li>✔ Excel</li>
-            <li>✔ PowerPoint</li>
-            <li>✔ Word</li>
-          </ul>
+		  <LabelValueList items={data.skills} checkmark={true} />
+
         </div>
 
         <div className="box">
           <h3>LANGUES</h3>
-          <ul>
-            <li><strong>Espagnol:</strong> Langue maternelle</li>
-            <li><strong>Anglais:</strong> Niveau moyen</li>
-            <li><strong>Français:</strong> Niveau facile</li>
-          </ul>
+		  <LabelValueList items={data.languages}/>
         </div>
       </div>
 
