@@ -12,7 +12,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function CVForm() {
 	
-	const { data,  handleInputChange, handleChange } = useCVData();
+	const { data, handleChange } = useCVData();
 	
 	const { t } = useTranslation();
 
@@ -22,11 +22,17 @@ export default function CVForm() {
 	      <Photo />
 		  
 	      <div className="md:col-span-2 space-y-4">	      
-		    <Input name="personal.firstname.value" placeholder={t(data.personal.firstname.label)} value={data.personal.firstname.value || ""} onChange={handleInputChange} />
+		    <Input name="personal.firstname.value" 
+				placeholder={t(data.personal.firstname.label)} 
+				value={data.personal.firstname.value || ""} 
+			/>
 			<div className="flex w-full gap-4">
 				<div className="flex-3 basis-3/4  ">
-					<Input  className={data.personal.lastname.upper_case ? "uppercase" : "normal-case"} name="personal.lastname.value" placeholder={t(data.personal.lastname.label)} value={data.personal.lastname.value || ""} 
-					onChange={handleInputChange} />
+					<Input  
+						className={data.personal.lastname.upper_case ? "uppercase" : "normal-case"} 
+						name="personal.lastname.value" placeholder={t(data.personal.lastname.label)} 
+						value={data.personal.lastname.value || ""} 
+					 />
 				</div>
 				<div className="flex-1 basis-1/4">	
 					<Input name="personal.lastname.upper_case" value={data.personal.lastname.upper_case} 
@@ -37,9 +43,21 @@ export default function CVForm() {
 			</div>
 	
 			
-			<Input name="personal.address.value" placeholder={t(data.personal.address.label)} value={data.personal.address.value} onChange={handleInputChange} />
-		    <Input name="personal.phone.value" placeholder={t(data.personal.phone.label)} value={data.personal.phone.value} onChange={handleInputChange} />
-		    <Input name="personal.email.value" placeholder={t(data.personal.email.label)} value={data.personal.email.value} onChange={handleInputChange} />
+			<Input 
+				name="personal.address.value" 
+				placeholder={t(data.personal.address.label)} 
+				value={data.personal.address.value} 
+			/>
+		    <Input 
+				name="personal.phone.value" 
+				placeholder={t(data.personal.phone.label)} 
+				value={data.personal.phone.value} 
+			/>
+		    <Input 
+				name="personal.email.value" 
+				placeholder={t(data.personal.email.label)} 
+				value={data.personal.email.value} 
+			/>
 
 	        {/* Add more fields here */}
 	      </div>

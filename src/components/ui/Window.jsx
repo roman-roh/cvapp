@@ -7,12 +7,13 @@ const Window: React.FC<CardContentProps> = ({ children, className }) => {
     <Rnd
       default={{
         x: isSmall ? 0 : 700,
-        y: isSmall ? 600 : 100,
+        y: isSmall ? 600 : 65,
         width: 800,
         height: 1240,
       }}
       minWidth={200}
       minHeight={100}
+	  cancel=".no-drag"
       className="bg-white shadow-lg border rounded-lg overflow-hidden"
 	  style={{ 
 		  zIndex: 100, 	  

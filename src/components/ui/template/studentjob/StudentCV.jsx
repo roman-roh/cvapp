@@ -3,7 +3,9 @@ import "./style.css";
 
 import { DescriptionText } from "./../../DescriptionText/DescriptionText";
 import { LabelValueList } from './LabelValueList/LabelValueList'
-const CristinaCV = ({data}) => {
+import { SectionGroup } from './LabelValueList/SectionGroup'
+
+const StudentCV = ({data}) => {
   return (
     <div className="cv">
       <div className="header">
@@ -39,29 +41,19 @@ const CristinaCV = ({data}) => {
 
       <div className="right-section">
         <div className="box">
-          <h3>EXPERIENCE</h3>
-          <p><strong>AUBANGE (ATHUS), Belgique</strong></p>
-          <ul>
-            <li>Expérience dans les tâches ménagères</li>
-            <li>Babysitting</li>
-            <li>À l’aise avec les ordinateurs</li>
-            <li>Fiable, responsable et prête à apprendre</li>
-            <li>Expérience à l'école en cuisine et informatique</li>
-            <li>Prépare des gâteaux et plats principaux</li>
-          </ul>
+		<h3>EXPERIENCE</h3>
+
+		  <SectionGroup data={data.experience}/>
+		
         </div>
 
         <div className="box">
           <h3>FORMATION</h3>
-          <ul>
-            <li><strong>Athénée Royal Athus</strong>, Aubange, Belgique (2021–2024)</li>
-            <li><strong>Ecole Päesch</strong>, Rodange, Luxembourg (2021)</li>
-            <li><strong>Ecole Josep James</strong>, Barcelone, Espagne (jusqu’en 2021)</li>
-          </ul>
+		  <SectionGroup data={data.education}/>
         </div>
       </div>
     </div>
   );
 };
 
-export default CristinaCV;
+export default StudentCV;

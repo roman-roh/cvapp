@@ -1,35 +1,35 @@
-{	
-"select_skills": [
-  { "value": "Expert"}, 
-  { "value": "Experienced"}, 
-  { "value": "Skilful" }, 
-  { "value": "Intermediate" },
-  { "value": "Beginner"}
-],
-"select_languages": [
-  { "value": "Native speaker" },
-  { "value": "Very good command" },
-  { "value": "Good working knowledge" },
-  { "value": "Working knowledge" },
-  { "value": "A1" },
-  { "value": "A2" },
-  { "value": "B1" },
-  { "value": "B2" },
-  { "value": "C1" },
-  { "value": "C2" }
-],
-"select_month": [
-	{"value": "January"},
-	{"value": "February"},
-	{"value": "March"},
-	{"value": "April"},
-	{"value": "May"},
-	{"value": "June"},
-	{"value": "July"},
-	{"value": "August"},
-	{"value": "September"},
-	{"value": "October"},
-	{"value": "November"},
-	{"value": "December"}
-]
+{
+  "select_skills": [
+    { "value": "Expert", "label": "Expert" },
+    { "value": "Experienced", "label": "Experienced" },
+    { "value": "Skilful", "label": "Skilful" },
+    { "value": "Intermediate", "label": "Intermediate" },
+    { "value": "Beginner", "label": "Beginner" }
+  ],
+  "select_languages": [
+    { "value": "Native speaker", "label": "Native speaker" },
+    { "value": "Very good command", "label": "Very good command" },
+    { "value": "Good working knowledge", "label": "Good working knowledge" },
+    { "value": "Working knowledge", "label": "Working knowledge" },
+    { "value": "A1", "label": "A1" },
+    { "value": "A2", "label": "A2" },
+    { "value": "B1", "label": "B1" },
+    { "value": "B2", "label": "B2" },
+    { "value": "C1", "label": "C1" },
+    { "value": "C2", "label": "C2" }
+  ],
+  "select_month": [
+    { "value": "January", "label": "January" },
+    { "value": "February", "label": "February" },
+    { "value": "March", "label": "March" },
+    { "value": "April", "label": "April" },
+    { "value": "May", "label": "May" },
+    { "value": "June", "label": "June" },
+    { "value": "July", "label": "July" },
+    { "value": "August", "label": "August" },
+    { "value": "September", "label": "September" },
+    { "value": "October", "label": "October" },
+    { "value": "November", "label": "November" },
+    { "value": "December", "label": "December" }
+  ]
 }

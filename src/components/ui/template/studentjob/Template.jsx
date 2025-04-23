@@ -3,7 +3,7 @@ import { usePhoto } from './../../../../providers/PhotoContext';
 import { useTranslation } from 'react-i18next';
 
 
-import CristinaCV from "./CristinaCV";
+import StudentCV from "./StudentCV";
 
 
 export function StudentTemplate({ data }) { 
@@ -13,7 +13,7 @@ export function StudentTemplate({ data }) {
   
   return (
 	<section className={'sections'}>	
-		<CristinaCV data={data} />
+		<StudentCV data={data} />
 	 </section>
   );
 }

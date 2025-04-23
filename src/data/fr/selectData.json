@@ -1,35 +1,35 @@
 {
   "select_skills": [
-    { "value": "Expert" }, 
-    { "value": "Expérimenté" }, 
-    { "value": "Habile" }, 
-    { "value": "Intermédiaire" },
-    { "value": "Débutant" }
+    { "value": "Expert", "label": "Expérimenté" },
+    { "value": "Experienced", "label": "Habile" },
+    { "value": "Skilful", "label": "Intermédiaire" },
+    { "value": "Intermediate", "label": "Débutant" },
+    { "value": "Beginner", "label": "" }
   ],
   "select_languages": [
-    { "value": "Langue maternelle" },
-    { "value": "Très bonne maîtrise" },
-    { "value": "Bonne maîtrise professionnelle" },
-    { "value": "Maîtrise professionnelle" },
-    { "value": "A1" },
-    { "value": "A2" },
-    { "value": "B1" },
-    { "value": "B2" },
-    { "value": "C1" },
-    { "value": "C2" }
+    { "value": "Native speaker", "label": "Langue maternelle" },
+    { "value": "Very good command", "label": "Très bonne maîtrise" },
+    { "value": "Good working knowledge", "label": "Bonne maîtrise professionnelle" },
+    { "value": "Working knowledge", "label": "Maîtrise professionnelle" },
+    { "value": "A1", "label": "A1" },
+    { "value": "A2", "label": "A2" },
+    { "value": "B1", "label": "B1" },
+    { "value": "B2", "label": "B2" },
+    { "value": "C1", "label": "C1" },
+    { "value": "C2", "label": "C2" }
   ],
   "select_month": [
-    { "value": "Janvier" },
-    { "value": "Février" },
-    { "value": "Mars" },
-    { "value": "Avril" },
-    { "value": "Mai" },
-    { "value": "Juin" },
-    { "value": "Juillet" },
-    { "value": "Août" },
-    { "value": "Septembre" },
-    { "value": "Octobre" },
-    { "value": "Novembre" },
-    { "value": "Décembre" }
+    { "value": "January", "label": "Janvier" },
+    { "value": "February", "label": "Février" },
+    { "value": "March", "label": "Mars" },
+    { "value": "April", "label": "Avril" },
+    { "value": "May", "label": "Mai" },
+    { "value": "June", "label": "Juin" },
+    { "value": "July", "label": "Juillet" },
+    { "value": "August", "label": "Août" },
+    { "value": "September", "label": "Septembre" },
+    { "value": "October", "label": "Octobre" },
+    { "value": "November", "label": "Novembre" },
+    { "value": "December", "label": "Décembre" }
   ]
 }

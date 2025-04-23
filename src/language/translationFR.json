@@ -62,5 +62,8 @@
     "print": "Imprimer"
   },
 
-  "change_language": "Changer de langue"
+  "change_language": "Changer de langue",
+  "Student": "Étudiant",
+  "Standard": "Standard" 
+
 }

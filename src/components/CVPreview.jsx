@@ -3,12 +3,13 @@ import {useReactToPrint} from "react-to-print";
 import { useTranslation } from 'react-i18next';
 
 import { Button } from "./ui/Button/Button";
+import { Select } from "./ui/Select";
 
 import Window from "./../components/ui/Window";
 import TemplateSelector  from "./../components/ui/template/TemplateSelector.jsx";
 
 
-export function CVPreview() {
+export function CVPreview({}) {
   const { t } = useTranslation();
 
   const previewRef = useRef();
@@ -21,12 +22,21 @@ export function CVPreview() {
   
   return (	
 	<>	
-		<Window >					
-		    <Button onClick={handlePrint}>{t('button.print')} </Button>	
-			<Button onClick={(e) => {
-				setNameTemplate((Math.random() < 0.5 ? 'standart' : 'studentjob'));	
-			}}>Change Template </Button>	
 
+		<Window >					
+		    <div>
+				<Select
+				    name="template"
+					className={'no-drag'}
+					value={nameTemplate}
+				    onChange={(e)=>{
+						setNameTemplate(e.target.value);					
+					}}
+				    options={[{"value": "standart", "label": t('Standard')},{"value": 'studentjob', "label" : t('Student')}]}
+				  />
+				  <Button onClick={handlePrint}>{t('button.print')} </Button>
+			 </div>
+			
 		    <div className='cvform' ref={previewRef}>					
 			  <TemplateSelector name={nameTemplate} />
 			</div>

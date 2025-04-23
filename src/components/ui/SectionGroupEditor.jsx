@@ -82,14 +82,12 @@ export default function SectionGroupEditor({title, name, data}) {
 						     <Select
 							    name={name + '.' + idx + '.date_start_month'}
 								value={ item[1].date_start_month || ""} 
-							    onChange={handleInputChange}
 							    placeholder="-"
 							    options={getSelectData('select_month')}
 							  />
 							  <Select
 						  	    name={name + '.' + idx + '.date_start_year'}
 						  		value={ item[1].date_start_year || ""} 
-						  	    onChange={handleInputChange}
 						  	    placeholder="-"
 						  	    options={years}
 						  	  />			
@@ -98,14 +96,12 @@ export default function SectionGroupEditor({title, name, data}) {
 						   <Select
 				  		    name={name + '.' + idx + '.date_end_month'}
 				  			value={ item[1].date_end_month || ""} 
-				  		    onChange={handleInputChange}
 				  		    placeholder="-"
 				  		    options={getSelectData('select_month')}
 				  		  />				  
 						  <Select
 			    		    name={name + '.' + idx + '.date_end_year'}
 			    			value={ item[1].date_end_year || ""} 
-			    		    onChange={handleInputChange}
 			    		    placeholder="-"
 			    		    options={years}
 			    		  />
@@ -116,7 +112,7 @@ export default function SectionGroupEditor({title, name, data}) {
 				  	<Input name={name + '.' + idx + '.subheading'}
 	  			  	  placeholder="Subheading" 
 	  			  	  value={ item[1].subheading } 
-	  			  	  onChange={handleInputChange} />
+					  />
 	  				  
 				  </div>
 
